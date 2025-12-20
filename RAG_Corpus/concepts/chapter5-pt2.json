@@ -1,0 +1,272 @@
+[
+  {
+    "topic": "integration",
+    "subtopic": "Mean Value Theorem for Integrals",
+    "chapter": 5,
+    "difficulty": "easy",
+    "content_type": "explanation",
+    "source": "OpenStax",
+    "content": "The Mean Value Theorem for Integrals says that for a continuous function on a closed interval, there is at least one point where the function’s value equals its average value over that interval. Intuitively, if you imagine the area under a curve being spread evenly into a rectangle, the height of that rectangle must occur somewhere on the curve."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Mean Value Theorem for Integrals",
+    "chapter": 5,
+    "difficulty": "easy",
+    "content_type": "example",
+    "source": "OpenStax",
+    "content": "If a function represents temperature over time, the theorem guarantees there is a moment when the temperature equals the average temperature for the entire time period."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Mean Value Theorem for Integrals",
+    "chapter": 5,
+    "difficulty": "easy",
+    "content_type": "hint",
+    "source": "OpenStax",
+    "content": "Think in terms of average height over an interval."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Mean Value Theorem for Integrals",
+    "chapter": 5,
+    "difficulty": "easy",
+    "content_type": "mistake",
+    "source": "OpenStax",
+    "content": "Assuming the average value occurs at the midpoint is not always correct."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Mean Value Theorem for Integrals",
+    "chapter": 5,
+    "difficulty": "easy",
+    "content_type": "summary",
+    "source": "OpenStax",
+    "content": "A continuous function reaches its average value somewhere in the interval."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Fundamental Theorem of Calculus Part 1",
+    "chapter": 5,
+    "difficulty": "medium",
+    "content_type": "explanation",
+    "source": "OpenStax",
+    "content": "The first part of the Fundamental Theorem of Calculus links accumulation and rates of change. It states that if a function is continuous, then the derivative of its accumulated area function equals the original function. This shows that integration and differentiation are inverse processes."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Fundamental Theorem of Calculus Part 1",
+    "chapter": 5,
+    "difficulty": "medium",
+    "content_type": "example",
+    "source": "OpenStax",
+    "content": "If an area function is defined as the accumulated area under f from a fixed point to x, its derivative gives back f(x)."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Fundamental Theorem of Calculus Part 1",
+    "chapter": 5,
+    "difficulty": "medium",
+    "content_type": "hint",
+    "source": "OpenStax",
+    "content": "Focus on how accumulation changes as the upper limit moves."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Fundamental Theorem of Calculus Part 1",
+    "chapter": 5,
+    "difficulty": "medium",
+    "content_type": "mistake",
+    "source": "OpenStax",
+    "content": "Forgetting that the integrand must be continuous invalidates the theorem."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Fundamental Theorem of Calculus Part 1",
+    "chapter": 5,
+    "difficulty": "medium",
+    "content_type": "summary",
+    "source": "OpenStax",
+    "content": "Differentiation reverses accumulation."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Fundamental Theorem of Calculus Part 2",
+    "chapter": 5,
+    "difficulty": "easy",
+    "content_type": "explanation",
+    "source": "OpenStax",
+    "content": "The second part of the Fundamental Theorem of Calculus provides a practical way to compute definite integrals. It says that the exact value of a definite integral can be found by evaluating any antiderivative at the endpoints and subtracting."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Fundamental Theorem of Calculus Part 2",
+    "chapter": 5,
+    "difficulty": "easy",
+    "content_type": "example",
+    "source": "OpenStax",
+    "content": "To find total displacement from a velocity function, compute an antiderivative and evaluate it at the final and initial times."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Fundamental Theorem of Calculus Part 2",
+    "chapter": 5,
+    "difficulty": "easy",
+    "content_type": "hint",
+    "source": "OpenStax",
+    "content": "Any antiderivative works because constants cancel."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Fundamental Theorem of Calculus Part 2",
+    "chapter": 5,
+    "difficulty": "easy",
+    "content_type": "mistake",
+    "source": "OpenStax",
+    "content": "Adding a constant of integration in definite integrals is unnecessary."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Fundamental Theorem of Calculus Part 2",
+    "chapter": 5,
+    "difficulty": "easy",
+    "content_type": "summary",
+    "source": "OpenStax",
+    "content": "Definite integrals are evaluated using antiderivatives."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Basic Integration Formulas",
+    "chapter": 5,
+    "difficulty": "easy",
+    "content_type": "explanation",
+    "source": "OpenStax",
+    "content": "Basic integration formulas reverse common differentiation rules. These include power, exponential, and trigonometric forms. They form the foundation for computing antiderivatives efficiently."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Basic Integration Formulas",
+    "chapter": 5,
+    "difficulty": "easy",
+    "content_type": "example",
+    "source": "OpenStax",
+    "content": "Integrating a power function increases the exponent by one and divides by the new exponent."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Basic Integration Formulas",
+    "chapter": 5,
+    "difficulty": "easy",
+    "content_type": "hint",
+    "source": "OpenStax",
+    "content": "Check your answer by differentiating."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Basic Integration Formulas",
+    "chapter": 5,
+    "difficulty": "easy",
+    "content_type": "mistake",
+    "source": "OpenStax",
+    "content": "Applying formulas without checking domain restrictions leads to errors."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Basic Integration Formulas",
+    "chapter": 5,
+    "difficulty": "easy",
+    "content_type": "summary",
+    "source": "OpenStax",
+    "content": "Integration formulas undo differentiation rules."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Net Change Theorem",
+    "chapter": 5,
+    "difficulty": "medium",
+    "content_type": "explanation",
+    "source": "OpenStax",
+    "content": "The Net Change Theorem states that the total change in a quantity equals the integral of its rate of change. This idea connects calculus to physical meaning, such as displacement from velocity or total accumulation from a rate."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Net Change Theorem",
+    "chapter": 5,
+    "difficulty": "medium",
+    "content_type": "example",
+    "source": "OpenStax",
+    "content": "Integrating a velocity function over time gives net displacement, accounting for both forward and backward motion."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Net Change Theorem",
+    "chapter": 5,
+    "difficulty": "medium",
+    "content_type": "hint",
+    "source": "OpenStax",
+    "content": "Rates integrate into total change."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Net Change Theorem",
+    "chapter": 5,
+    "difficulty": "medium",
+    "content_type": "mistake",
+    "source": "OpenStax",
+    "content": "Confusing net change with total accumulated magnitude is common."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Net Change Theorem",
+    "chapter": 5,
+    "difficulty": "medium",
+    "content_type": "summary",
+    "source": "OpenStax",
+    "content": "Integrals convert rates into total change."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Signed Area vs Total Area",
+    "chapter": 5,
+    "difficulty": "hard",
+    "content_type": "explanation",
+    "source": "OpenStax",
+    "content": "Definite integrals compute signed area, where regions below the axis contribute negatively. This is crucial in applications like velocity, where direction matters. Total area requires integrating the absolute value."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Signed Area vs Total Area",
+    "chapter": 5,
+    "difficulty": "hard",
+    "content_type": "example",
+    "source": "OpenStax",
+    "content": "A velocity function that crosses zero produces smaller net displacement than total distance traveled."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Signed Area vs Total Area",
+    "chapter": 5,
+    "difficulty": "hard",
+    "content_type": "hint",
+    "source": "OpenStax",
+    "content": "Check where the function changes sign."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Signed Area vs Total Area",
+    "chapter": 5,
+    "difficulty": "hard",
+    "content_type": "mistake",
+    "source": "OpenStax",
+    "content": "Using a single integral when absolute values are needed gives wrong results."
+  },
+  {
+    "topic": "integration",
+    "subtopic": "Signed Area vs Total Area",
+    "chapter": 5,
+    "difficulty": "hard",
+    "content_type": "summary",
+    "source": "OpenStax",
+    "content": "Signed area measures net effect; absolute area measures total magnitude."
+  }
+]
