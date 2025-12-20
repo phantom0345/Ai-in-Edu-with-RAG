@@ -1,0 +1,182 @@
+[
+    {
+        "topic": "derivatives",
+        "subtopic": "Related Rates",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Related rates problems study how two or more quantities that depend on time change together. Instead of focusing on exact values, the goal is to understand how fast one quantity changes when another is changing. The key idea is that if quantities are connected by a formula, their time derivatives must also be connected. Even if time does not explicitly appear in the equation, we imagine all variables as functions of time. This allows us to differentiate with respect to time using the chain rule. Related rates appear naturally in motion, geometry, and physical processes such as filling tanks, moving objects, or changing angles. :contentReference[oaicite:0]{index=0}"
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Related Rates",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A circular ripple expands so that its radius increases at 2 cm/s. Since area depends on radius, the rate of change of area depends on how fast the radius grows. Differentiating the area formula with respect to time links these two rates."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Related Rates",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Treat every variable as a function of time, even if time is not shown."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Related Rates",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Substituting numerical values before differentiating removes needed derivative terms."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Related Rates",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Related rates connect time derivatives of linked quantities."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Setting Up Related Rates Problems",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Solving related rates problems follows a structured setup. First, define symbols for all changing quantities and draw a diagram if geometry is involved. Second, identify which rate is given and which rate must be found. Third, write an equation relating the variables using geometry or formulas. Only after differentiating the equation with respect to time should numerical values be substituted. This structured approach prevents algebraic and conceptual errors."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Setting Up Related Rates Problems",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A ladder slides down a wall while its base moves outward. Writing a Pythagorean equation relating height and base distance allows their rates to be connected through differentiation."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Setting Up Related Rates Problems",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Delay substituting numbers until after differentiating."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Setting Up Related Rates Problems",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Forgetting to relate variables with a single equation blocks progress."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Setting Up Related Rates Problems",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Clear variable definitions and delayed substitution are essential."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Related Rates with Trigonometry",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Some related rates problems involve angles that change over time. In these cases, trigonometric relationships such as sine, cosine, or tangent connect distances and angles. Differentiating trigonometric equations introduces derivatives of trig functions, often producing squared secant or cosecant terms. These problems commonly appear in camera tracking or motion along angled paths."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Related Rates with Trigonometry",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A camera tracks a rocket rising vertically. Writing tan(θ) as height divided by horizontal distance links the angle’s rate of change to the rocket’s vertical speed."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Related Rates with Trigonometry",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Choose a trig ratio that directly relates the changing quantities."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Related Rates with Trigonometry",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Using unnecessary trigonometric functions complicates the problem."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Related Rates with Trigonometry",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Trigonometry links angle rates to linear motion."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Linear Approximations",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "A linear approximation uses the tangent line at a point to estimate nearby function values. Since curves look nearly straight close to a point, the tangent line provides a simple local model. The approximation improves as x stays closer to the point of tangency. This idea explains why calculators and computers rely on linear behavior at small scales. :contentReference[oaicite:1]{index=1}"
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Linear Approximations",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "The tangent line to f(x)=1/x at x=2 provides a good estimate for values near 2, such as approximating 1/2.1."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Linear Approximations",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Choose an approximation point close to the target value."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Linear Approximations",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Using points far from the tangent point reduces accuracy."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Linear Approximations",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Tangent lines approximate nearby function values."
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "topic": "functions",
+        "subtopic": "The Limit of a Function|The Limit Laws",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Evaluate the limit lim_{x→2} (x^2 − 4)/(x − 2). Begin by checking direct substitution. Substituting x = 2 gives 0/0, an indeterminate form, so the limit laws cannot yet be applied. Factor the numerator: x^2 − 4 = (x − 2)(x + 2). Rewrite the expression as (x − 2)(x + 2)/(x − 2). For all x ≠ 2, the factor (x − 2) cancels, leaving the simpler function x + 2. Since x + 2 is defined at x = 2, the limit of the original function equals the limit of x + 2 as x approaches 2. Apply direct substitution to obtain 2 + 2 = 4. Conclude that the limit exists and equals 4, even though the original function is not defined at x = 2. This procedure relies on replacing the function with an algebraically equivalent one that is valid near, but not necessarily at, the point of interest."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The Limit of a Function|The Limit Laws",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Evaluate lim_{x→0} (√(1 + x) − 1)/x. Substituting x = 0 produces 0/0, so further manipulation is required. Multiply the numerator and denominator by the conjugate √(1 + x) + 1 to eliminate the square root in the numerator. This yields [(1 + x) − 1] / [x(√(1 + x) + 1)]. Simplify the numerator to x, then cancel the common factor x from numerator and denominator, valid for x ≠ 0. The expression becomes 1 / (√(1 + x) + 1). Now the limit laws apply, since the denominator is defined at x = 0. Substitute x = 0 to obtain 1 / (1 + 1) = 1/2. Therefore, the limit exists and equals 1/2. The key procedural idea is transforming the expression into a form where direct substitution is permitted."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The Limit of a Function|The Limit Laws",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "When a limit yields an indeterminate form such as 0/0, pause before applying limit laws. First ask whether the expression can be simplified algebraically for x near the target value. Factoring polynomials, rationalizing expressions with radicals, or simplifying complex fractions often reveals a new function that agrees with the original except at a single point. Only after this simplification should the limit laws or direct substitution be used."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The Limit of a Function|The Limit Laws",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "For rational expressions, check whether the denominator approaches zero at the limit point. If it does, determine whether cancellation is possible. If cancellation removes the zero, the limit may exist; if not, consider whether the expression grows without bound, signaling an infinite limit. Distinguishing between removable and nonremovable behavior is a crucial procedural step."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The Limit of a Function|The Limit Laws",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A common error is canceling terms across addition or subtraction when simplifying a limit. For example, canceling the x in (x + 1)/x to claim the limit equals 1 ignores the additive structure of the numerator. Cancellation is valid only for common multiplicative factors. This mistake leads to incorrect limits and masks genuine infinite or finite behavior near the point."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The Limit of a Function|The Limit Laws",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Another frequent mistake is applying the quotient law when the denominator’s limit is zero. Doing so implicitly assumes the quotient law’s conditions are satisfied, which they are not. This can produce misleading finite answers for limits that actually diverge or require algebraic restructuring before evaluation."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Continuity",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Determine whether the function f(x)=\\begin{cases}kx+1,& x<2\\\\ x^2−3,& x\\ge2\\end{cases} is continuous at x=2, and find k if continuity is possible. First compute the left-hand limit using the x<2 branch: \\lim_{x→2^-}f(x)=2k+1. Next compute the right-hand limit using the x≥2 branch: \\lim_{x→2^+}f(x)=2^2−3=1. Evaluate the function value at x=2: f(2)=1. For continuity, the left-hand limit, right-hand limit, and function value must be equal. Set 2k+1=1 and solve to obtain k=0. Interpretation: continuity conditions translate directly into an algebraic equation for unknown parameters in piecewise definitions."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Continuity",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "When asked to enforce continuity, write down the three conditions explicitly: existence of the limit, equality of one-sided limits, and agreement with the function value. Unknown constants are found by equating the left-hand and right-hand expressions at the point."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Continuity",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A common error is substituting x=2 into both formulas without checking which branch defines the function value. Continuity depends on limits approaching the point, not on blindly evaluating each piece at that point."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The Precise Definition of a Limit",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Use the ε–δ definition to verify that \\lim_{x→3}(2x−1)=5. Begin by computing |(2x−1)−5|=|2x−6|=2|x−3|. To ensure this quantity is less than ε, it suffices to require 2|x−3|<ε. Divide both sides by 2 to obtain |x−3|<ε/2. Choose δ=ε/2. Then whenever 0<|x−3|<δ, it follows that |(2x−1)−5|<ε. This completes the verification. Interpretation: linear functions allow direct isolation of |x−a|, making δ an explicit function of ε."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The Precise Definition of a Limit",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Start by expressing |f(x)−L| in terms of |x−a|. The goal is to bound |f(x)−L| by a multiple of |x−a|, allowing you to choose δ as a function of ε. Work backward from the desired inequality |f(x)−L|<ε."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The Precise Definition of a Limit",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Students often choose δ before analyzing |f(x)−L|, leading to guesses that do not guarantee the ε-condition. Another error is forgetting to enforce 0<|x−a|<δ, which is essential to the formal definition."
+    }
+]

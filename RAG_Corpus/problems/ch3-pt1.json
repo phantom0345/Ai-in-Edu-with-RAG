@@ -1,0 +1,302 @@
+[
+    {
+        "topic": "functions",
+        "subtopic": "Defining the derivative",
+        "chapter": 3,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Find the derivative of f(x)=x^2−4x+1 at x=3 using the limit definition. Start with f′(a)=lim_{h→0}[f(a+h)−f(a)]/h. Substitute a=3 to obtain f′(3)=lim_{h→0}[( (3+h)^2−4(3+h)+1 ) − (9−12+1)]/h. Expand the numerator: (9+6h+h^2−12−4h+1)−(−2)= (2h+h^2). Factor h to get h(2+h)/h. Cancel h (valid for h≠0), leaving 2+h. Taking the limit as h→0 gives 2. Interpretation: the slope of the tangent line to f at x=3 is 2, representing the instantaneous rate of change at that point."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Defining the derivative",
+        "chapter": 3,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Show that f(x)=|x| is not differentiable at x=0 using the limit definition. Write f′(0)=lim_{x→0}[|x|−|0|]/(x−0)=lim_{x→0}|x|/x. Evaluate one-sided limits. For x→0^+, |x|/x = x/x = 1. For x→0^−, |x|/x = (−x)/x = −1. Since the left-hand and right-hand limits are not equal, the limit does not exist. Therefore, f′(0) does not exist. Interpretation: although the function is continuous at 0, the differing one-sided slopes prevent a single tangent slope from existing."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Defining the derivative",
+        "chapter": 3,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "When using the definition of the derivative at a point, substitute the point value early to simplify algebra. Expand carefully, then look for a common factor of h in the numerator. Cancellation of h is expected; if it does not occur, recheck the expansion."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Defining the derivative",
+        "chapter": 3,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A frequent mistake is canceling h before factoring the numerator. Cancelling terms that are not common factors leads to incorrect simplification and hides whether the derivative exists. Another error is ignoring one-sided limits when absolute values or piecewise definitions are involved."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The derivative as a function",
+        "chapter": 3,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Find the derivative function of f(x)=x^2−2x using the limit definition. Start with f′(x)=lim_{h→0}[( (x+h)^2−2(x+h) ) − (x^2−2x)]/h. Expand the numerator to x^2+2xh+h^2−2x−2h−x^2+2x. Simplify to 2xh+h^2−2h. Factor h to obtain h(2x+h−2)/h. Cancel h, giving 2x+h−2. Taking the limit as h→0 yields f′(x)=2x−2. Interpretation: the derivative function gives the slope of the tangent line at every x in the domain."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The derivative as a function",
+        "chapter": 3,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Given the graph of a function f, determine intervals where f′(x)>0, f′(x)<0, and f′(x)=0. Identify regions where f is increasing; on these intervals the derivative is positive. Where f is decreasing, the derivative is negative. Points where the tangent is horizontal correspond to f′(x)=0. Sharp corners or vertical tangents indicate points where the derivative does not exist. Interpretation: the graph of f′ encodes slope information rather than height."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The derivative as a function",
+        "chapter": 3,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "When building a derivative function, treat x as a variable throughout the limit process. Do not substitute numerical values unless explicitly asked for f′(a). The final result should be an expression in x."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The derivative as a function",
+        "chapter": 3,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Students often confuse f′(x) with f′(a) and substitute a numerical value too early. Another error is assuming continuity guarantees differentiability; corners, cusps, and vertical tangents must be checked explicitly."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Differentiation Rules",
+        "chapter": 3,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Find the derivative of f(x) = (x^2 + 2)(3x^3 − 5x). Apply the product rule since the function is a product of two polynomials. Let u = x^2 + 2 and v = 3x^3 − 5x. Then u′ = 2x and v′ = 9x^2 − 5. The product rule gives f′(x) = u′v + uv′ = 2x(3x^3 − 5x) + (x^2 + 2)(9x^2 − 5). Expand each term carefully: 2x(3x^3 − 5x) = 6x^4 − 10x^2, and (x^2 + 2)(9x^2 − 5) = 9x^4 + 13x^2 − 10. Combine like terms to obtain f′(x) = 15x^4 + 3x^2 − 10. Interpretation: combining rules efficiently avoids reverting to the limit definition and emphasizes structured algebraic execution."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Differentiation Rules",
+        "chapter": 3,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "When multiple rules apply, decide the outermost structure first. Products and quotients should be handled before expanding. Differentiate each factor separately, then combine using the appropriate rule to reduce algebraic errors."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Differentiation Rules",
+        "chapter": 3,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A frequent mistake is differentiating each factor and multiplying the results, as if a product rule were linear. This leads to missing cross terms and an incomplete derivative."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Derivatives as Rates of Change",
+        "chapter": 3,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A particle moves along a line with position s(t) = t^3 − 6t^2 + 9t. Determine when the particle is slowing down. First compute velocity v(t) = s′(t) = 3t^2 − 12t + 9 and acceleration a(t) = v′(t) = 6t − 12. The particle slows down when velocity and acceleration have opposite signs. Find critical points: v(t)=0 gives t=1 and t=3; a(t)=0 gives t=2. Create a sign chart over intervals (0,1), (1,2), (2,3), (3,∞). Test signs: on (1,2), v(t)<0 and a(t)<0 (speeding up); on (2,3), v(t)<0 and a(t)>0 (slowing down). Thus, the particle slows down on (2,3). Interpretation: slowing down depends on the interaction between velocity and acceleration, not their magnitudes alone."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Derivatives as Rates of Change",
+        "chapter": 3,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "To analyze speeding up or slowing down, always compute both velocity and acceleration. Use a sign chart to compare their signs on each interval determined by critical points."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Derivatives as Rates of Change",
+        "chapter": 3,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Students often assume negative velocity means slowing down. Direction and speed are different concepts; slowing down requires velocity and acceleration to have opposite signs."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Derivatives of trignometric functions",
+        "chapter": 3,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Find the derivative of y = sin(x) + 2cos(x) − tan(x). Differentiate term by term using basic trigonometric derivative rules. The derivative of sin(x) is cos(x), the derivative of cos(x) is −sin(x), and the derivative of tan(x) is sec^2(x). Applying linearity, y′ = cos(x) − 2sin(x) − sec^2(x). Interpretation: trigonometric derivatives follow fixed patterns, so accuracy depends on recalling each rule and maintaining signs."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Derivatives of trignometric functions",
+        "chapter": 3,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Before differentiating, rewrite expressions to isolate basic trigonometric functions. Apply derivatives one term at a time and track negative signs carefully, especially for cosine and tangent."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Derivatives of trignometric functions",
+        "chapter": 3,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A common error is confusing sec^2(x) with sec(x) or forgetting the negative sign in the derivative of cos(x). These small slips lead to structurally incorrect derivatives."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "the chain rule",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Differentiate y = cos(7x^2 + 3x − 1). Identify the composition: the outer function is cos(u) and the inner function is u = 7x^2 + 3x − 1. First differentiate the outer function with respect to u: d/du[cos(u)] = −sin(u). Next differentiate the inner function: du/dx = 14x + 3. Apply the chain rule by multiplying these derivatives: y′ = −sin(7x^2 + 3x − 1)(14x + 3). No further simplification is required. Interpretation: the derivative scales the sine term by the rate at which the inner quadratic changes, showing how curvature in the input affects the overall rate of change."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "the chain rule",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Always differentiate from the outside in. Identify the last operation applied to x, differentiate that first, and then multiply by the derivative of what is inside. Writing the inner function explicitly helps prevent missing factors."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "the chain rule",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A common error is differentiating the outer function correctly but forgetting to multiply by the derivative of the inner function. This omission leads to answers that resemble basic derivatives but underestimate the true rate of change."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Derivatives of inverse functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Find the derivative of f(x) = sin⁻¹(3x − 1). Recognize this as a composition of the inverse sine function with an inner linear function. Start from the known derivative d/dx[sin⁻¹(u)] = 1/√(1 − u^2). Let u = 3x − 1, so du/dx = 3. Apply the chain rule: f′(x) = 1/√(1 − (3x − 1)^2) · 3. Simplify the expression to f′(x) = 3/√(1 − (3x − 1)^2). Interpretation: inverse trigonometric derivatives produce algebraic expressions whose domains must respect the original inverse function’s restrictions."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Derivatives of inverse functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "When differentiating inverse functions, first recall the base derivative formula, then immediately apply the chain rule if the argument is not simply x. Treat the inverse function as the outer layer."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Derivatives of inverse functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Students often confuse the derivative of an inverse function with the reciprocal of the original function itself. The correct reciprocal involves the derivative evaluated at the inverse, not simply 1/f′(x)."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Implicit Differentiation",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Find dy/dx for the curve x^2 + xy + y^2 = 7 using implicit differentiation. Differentiate both sides with respect to x, treating y as a function of x. The derivative of x^2 is 2x. For xy, apply the product rule: d/dx(xy) = x(dy/dx) + y. The derivative of y^2 is 2y(dy/dx). The right-hand side differentiates to 0. Collect terms involving dy/dx: x(dy/dx) + 2y(dy/dx) + 2x + y = 0. Factor dy/dx from the relevant terms: (x + 2y)(dy/dx) = −(2x + y). Solve for dy/dx by dividing both sides by (x + 2y): dy/dx = −(2x + y)/(x + 2y). Interpretation: implicit differentiation allows slope computation without solving explicitly for y, but algebraic organization is critical."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Implicit Differentiation",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Differentiate term by term, writing dy/dx every time y is differentiated. After differentiating, gather all dy/dx terms on one side and factor before solving. This prevents missed terms and sign errors."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Implicit Differentiation",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A frequent error is differentiating y^2 as 2y instead of 2y(dy/dx), which incorrectly treats y as a constant. Another mistake is solving for dy/dx before all dy/dx terms are collected, leading to incomplete expressions."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Derivatives of Exponential and logarithmic functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Differentiate y = x^2 e^{3x} using differentiation rules. This is a product of x^2 and e^{3x}, so apply the product rule: y′ = (x^2)′e^{3x} + x^2(e^{3x})′. Compute each derivative: (x^2)′ = 2x and (e^{3x})′ = 3e^{3x} by the chain rule. Substitute back to obtain y′ = 2x e^{3x} + 3x^2 e^{3x}. Factor out the common term e^{3x}: y′ = e^{3x}(2x + 3x^2). Interpretation: exponential functions often factor cleanly after differentiation, revealing growth behavior tied to both polynomial and exponential rates."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Derivatives of Exponential and logarithmic functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Find the derivative of y = ln(x^2 − 5x). Identify the composition: the outer function is ln(u), where u = x^2 − 5x. The derivative of ln(u) is 1/u, multiplied by du/dx. Compute du/dx = 2x − 5. Apply the chain rule: y′ = (1/(x^2 − 5x))(2x − 5). Interpretation: logarithmic differentiation converts multiplicative or polynomial structure into rational derivatives, but the inner function must be differentiated explicitly."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Derivatives of Exponential and logarithmic functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "For exponential and logarithmic derivatives, first identify whether the function is a product, quotient, or composition. Apply product or quotient rules before simplifying, and remember that ln(u)′ requires multiplying by u′."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Derivatives of Exponential and logarithmic functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Students often differentiate ln(x^2 − 5x) as 1/(x^2 − 5x) and stop, forgetting to multiply by the derivative of the inside expression. Another common error is treating e^{3x} as if its derivative were e^{x}, ignoring the chain rule factor."
+    }
+]

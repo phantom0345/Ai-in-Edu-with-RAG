@@ -1,0 +1,182 @@
+[
+    {
+        "topic": "functions",
+        "subtopic": "Approximating Areas | The definite integral",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Approximate the area under f(x) = x^2 + 1 on the interval [0, 2] using a right-endpoint Riemann sum with n = 4, then express the exact area using a definite integral. First compute the subinterval width: Δx = (2 − 0)/4 = 0.5. The right endpoints are x1 = 0.5, x2 = 1, x3 = 1.5, x4 = 2. Evaluate the function at these points: f(0.5) = 1.25, f(1) = 2, f(1.5) = 3.25, f(2) = 5. Form the Riemann sum: R4 = (1.25 + 2 + 3.25 + 5)(0.5) = 5.625. This is an approximation of the area. To represent the exact area, write the definite integral ∫₀² (x² + 1) dx. The setup reflects the limit of Riemann sums as n → ∞. The numerical approximation 5.625 slightly overestimates the true area because the function is increasing on [0, 2]."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Approximating Areas | The definite integral",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Start by identifying the interval and number of subintervals to compute Δx. Decide early whether left, right, or general Riemann sums are required. Always list the exact x-values used for rectangle heights before plugging into the function. Check whether the function is increasing or decreasing to anticipate overestimates or underestimates. When transitioning to a definite integral, focus only on limits and the integrand—do not recompute rectangles."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Approximating Areas | The definite integral",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A common procedural error is using left endpoints when the problem explicitly asks for right endpoints, which changes every function evaluation. Another mistake is forgetting to multiply the sum of function values by Δx, leading to a result that is too large. Students also often confuse the approximation step with evaluation of the definite integral and incorrectly apply antiderivative rules instead of forming a Riemann sum."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Approximating Areas | The definite integral",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Use the definition of the definite integral to evaluate ∫₁³ (2x − 1) dx by constructing a right-endpoint Riemann sum. Let the interval [1, 3] be divided into n equal subintervals, so Δx = (3 − 1)/n = 2/n. The right endpoint of the ith subinterval is xi = 1 + (2i/n). Evaluate the function: f(xi) = 2(1 + 2i/n) − 1 = 1 + 4i/n. Form the sum: ∑ᵢ₌₁ⁿ (1 + 4i/n)(2/n). Distribute to obtain ∑ᵢ₌₁ⁿ (2/n + 8i/n²). Separate sums: 2n/n + (8/n²)∑ᵢ₌₁ⁿ i. Use ∑ᵢ₌₁ⁿ i = n(n + 1)/2. Simplify to get 2 + 4(n + 1)/n. Take the limit as n → ∞, yielding 2 + 4 = 6. Thus, the definite integral equals 6."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Approximating Areas | The definite integral",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "When using the definition, always express xi explicitly in terms of i before evaluating the function. Keep Δx symbolic until the summation is formed. Separate constant terms from sums involving i so standard summation formulas apply cleanly. Do not simplify too early; take the limit only after the sum is fully simplified."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Approximating Areas | The definite integral",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A frequent setup mistake is defining xi incorrectly, such as using i/n instead of a + iΔx, which shifts all rectangles. Another error is applying summation formulas incorrectly, especially forgetting factors of n in Δx. Students also sometimes evaluate the limit before simplifying the sum, leading to indeterminate or incorrect results."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The fundamental Theorem of calculus | integration Formulas And the net change theorem",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Evaluate the definite integral ∫₀⁴ (3x² − 2x) dx using the Fundamental Theorem of Calculus, Part 2, and interpret the result as net change. First identify an antiderivative of the integrand. Integrate term by term: an antiderivative is F(x) = x³ − x². Apply the evaluation theorem by computing F(4) − F(0). We obtain F(4) = 64 − 16 = 48 and F(0) = 0, so the definite integral equals 48. Procedurally, this means the accumulated net change of a quantity whose rate of change is 3x² − 2x over the interval [0, 4] is 48 units. Note that no constant of integration is included because it cancels automatically in definite integrals. The setup emphasizes recognizing when to shift from area-based thinking to direct antiderivative evaluation using endpoints only."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The fundamental Theorem of calculus | integration Formulas And the net change theorem",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "First decide whether the problem asks for a derivative of an integral or the value of a definite integral. If endpoints are constants, immediately look for an antiderivative and apply F(b) − F(a). Do not include +C. When interpreting results via the net change theorem, treat the integrand as a rate function and the integral as total change, not necessarily geometric area."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The fundamental Theorem of calculus | integration Formulas And the net change theorem",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A common procedural mistake is adding a constant of integration when evaluating a definite integral, which leads to an incorrect numerical result. Another error is reversing the limits mentally and forgetting the subtraction order F(b) − F(a). Students also often interpret a negative definite integral as an error, rather than recognizing it correctly represents negative net change."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The fundamental Theorem of calculus | integration Formulas And the net change theorem",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A particle moves along a line with velocity v(t) = t² − 4t + 3 for 0 ≤ t ≤ 5. Find both the net displacement and total distance traveled. For net displacement, apply the net change theorem: ∫₀⁵ (t² − 4t + 3) dt. An antiderivative is F(t) = t³/3 − 2t² + 3t. Evaluating gives F(5) − F(0) = (125/3 − 50 + 15) = 20/3. For total distance, identify where v(t) changes sign. Solve t² − 4t + 3 = 0, giving t = 1 and t = 3. Split the integral into three intervals and integrate |v(t)| by flipping the sign where v(t) is negative. Sum the resulting values to obtain total distance. This procedure highlights the distinction between signed net change and accumulated magnitude."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The fundamental Theorem of calculus | integration Formulas And the net change theorem",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "For net change, integrate the rate function directly over the full interval. For total distance, always find where the rate equals zero to determine sign changes. Rewrite the problem using absolute values only after locating these critical points. Keep net displacement and total distance conceptually separate throughout the computation."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The fundamental Theorem of calculus | integration Formulas And the net change theorem",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A frequent error is using the absolute value of the rate function when computing net displacement, which incorrectly produces total distance instead. Another mistake is failing to split the interval at sign-change points, leading to partial cancellation errors. Students also sometimes differentiate instead of integrating when they see rate language, reversing the intended direction of the theorem."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Substitution | Integrals involving Exponential and logarithmic functions | Integrals resulting in inverse trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Evaluate the integral ∫ x e^{x^2} dx using substitution. Begin by identifying the inner function in the exponent, x^2, whose derivative 2x appears up to a constant factor. Let u = x^2, so du = 2x dx. Rewrite the integral as (1/2)∫ e^u du by factoring out 1/2 to match du. Integrate with respect to u to obtain (1/2)e^u + C. Substitute back to return to the original variable, giving (1/2)e^{x^2} + C. The procedural focus is recognizing the composite structure e^{g(x)} and ensuring the differential dx is fully converted when changing variables."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Substitution | Integrals involving Exponential and logarithmic functions | Integrals resulting in inverse trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Scan the integrand for a composition where an inner expression and its derivative both appear. Choose u to be the inner expression, not the outer function. Always rewrite dx in terms of du before integrating. If constants do not match exactly, factor them out of the integral rather than forcing them into du."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Substitution | Integrals involving Exponential and logarithmic functions | Integrals resulting in inverse trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A common error is setting u equal to the entire integrand instead of the inner expression, which prevents proper substitution. Another mistake is replacing dx with du without accounting for missing constants, leading to incorrect scaling. Students also sometimes forget to substitute back to x, leaving the final answer incorrectly expressed in terms of u."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Substitution | Integrals involving Exponential and logarithmic functions | Integrals resulting in inverse trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Evaluate the definite integral ∫₀^{1/2} dx / √(1 − 4x²). Recognize the integrand as matching the inverse sine form. First rewrite the expression to fit the standard formula. Let u = 2x so that du = 2dx and (1/2)du = dx. Change the limits: when x = 0, u = 0; when x = 1/2, u = 1. The integral becomes (1/2)∫₀¹ du / √(1 − u²). Apply the inverse sine antiderivative to obtain (1/2)[sin⁻¹(u)]₀¹. Evaluating gives (1/2)(π/2 − 0) = π/4. The key procedural steps are correctly adjusting limits and constants before applying the inverse trigonometric formula."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Substitution | Integrals involving Exponential and logarithmic functions | Integrals resulting in inverse trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "When an integrand resembles 1/√(a² − u²) or 1/(a² + u²), aim to rewrite it exactly in that form before substituting. Always convert the limits when working with definite integrals to avoid back-substitution. Check that constants outside the square root are handled before applying inverse trigonometric formulas."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Substitution | Integrals involving Exponential and logarithmic functions | Integrals resulting in inverse trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A frequent mistake is applying inverse trigonometric formulas without first scaling the variable to match the standard form. Another error is changing variables but keeping the original limits, which produces incorrect numerical results. Students also sometimes use absolute value incorrectly inside inverse sine expressions, misinterpreting the domain constraints."
+    }
+]

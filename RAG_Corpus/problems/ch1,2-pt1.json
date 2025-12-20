@@ -1,0 +1,332 @@
+[
+  {
+    "topic": "functions",
+    "subtopic": "Review of Functions",
+    "chapter": 1,
+    "difficulty": "medium",
+    "layer": "procedural",
+    "content_type": "example",
+    "source": "OpenStax",
+    "content": "Given f(x) = (x − 2)/(x² − 4), determine the domain and simplify the function where possible. Start by identifying restrictions from the denominator: x² − 4 = (x − 2)(x + 2), so x ≠ ±2. Cancel the common factor (x − 2) to obtain f(x) = 1/(x + 2), but note that the original restriction x ≠ 2 still applies. The simplified form is valid only for x ≠ ±2. Interpretation: although the graph resembles 1/(x + 2), there is a removable discontinuity at x = 2 due to cancellation, and a vertical asymptote at x = −2."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Review of Functions",
+    "chapter": 1,
+    "difficulty": "medium",
+    "layer": "procedural",
+    "content_type": "hint",
+    "source": "OpenStax",
+    "content": "Factor expressions fully before determining the domain. Write domain restrictions before simplifying so canceled factors are not accidentally reintroduced. Treat algebraic simplification and domain analysis as two linked but distinct steps."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Review of Functions",
+    "chapter": 1,
+    "difficulty": "medium",
+    "layer": "procedural",
+    "content_type": "mistake",
+    "source": "OpenStax",
+    "content": "A common error is canceling factors first and then declaring the domain from the simplified form. This incorrectly allows values that were excluded in the original function, masking removable discontinuities."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Review of Functions",
+    "chapter": 1,
+    "difficulty": "hard",
+    "layer": "procedural",
+    "content_type": "example",
+    "source": "OpenStax",
+    "content": "Let f(x) = √(3 − x) and g(x) = 1/(x − 1). Find the domain of (f ∘ g)(x). First write the composition: (f ∘ g)(x) = √(3 − 1/(x − 1)). For the square root to be defined, require 3 − 1/(x − 1) ≥ 0 and x ≠ 1. Solve the inequality: 3 ≥ 1/(x − 1). Rewrite as (x − 1)·3 ≥ 1 when x − 1 > 0, and reverse the inequality when x − 1 < 0. Solving both cases yields x ≥ 4/3 or x < 1. Exclude x = 1. The domain is (−∞, 1) ∪ [4/3, ∞)."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Review of Functions",
+    "chapter": 1,
+    "difficulty": "hard",
+    "layer": "procedural",
+    "content_type": "hint",
+    "source": "OpenStax",
+    "content": "Always compute compositions explicitly before finding the domain. Apply domain restrictions from the outer function last. When inequalities involve rational expressions, split into sign-based cases."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Review of Functions",
+    "chapter": 1,
+    "difficulty": "hard",
+    "layer": "procedural",
+    "content_type": "mistake",
+    "source": "OpenStax",
+    "content": "Students often intersect the domains of f and g without checking how g(x) affects the input of f. This shortcut fails for compositions involving radicals or rational expressions."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Basic Classes of Functions",
+    "chapter": 1,
+    "difficulty": "medium",
+    "layer": "procedural",
+    "content_type": "example",
+    "source": "OpenStax",
+    "content": "Given h(x) = −2(x − 1)² + 3, identify the parent function and describe the transformations. Start from the parent y = x². The term (x − 1) shifts the graph right by 1. The coefficient −2 reflects the graph across the x-axis and applies a vertical stretch by factor 2. The +3 shifts the graph upward by 3. Interpretation: the vertex is at (1, 3) and the parabola opens downward, steeper than y = x²."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Basic Classes of Functions",
+    "chapter": 1,
+    "difficulty": "medium",
+    "layer": "procedural",
+    "content_type": "hint",
+    "source": "OpenStax",
+    "content": "Rewrite quadratic functions in vertex form before identifying transformations. Apply horizontal shifts first, then reflections or stretches, and finish with vertical shifts."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Basic Classes of Functions",
+    "chapter": 1,
+    "difficulty": "medium",
+    "layer": "procedural",
+    "content_type": "mistake",
+    "source": "OpenStax",
+    "content": "A frequent error is interpreting (x − 1)² as a left shift instead of a right shift. Horizontal transformations work opposite the sign inside the parentheses."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Basic Classes of Functions",
+    "chapter": 1,
+    "difficulty": "hard",
+    "layer": "procedural",
+    "content_type": "example",
+    "source": "OpenStax",
+    "content": "Consider the piecewise function f(x) = { x² − 1, x < 1; 2x − 3, x ≥ 1 }. Determine whether f is continuous at x = 1. Compute the left-hand limit: limₓ→1⁻ (x² − 1) = 0. Compute the function value from the right: f(1) = 2(1) − 3 = −1. Since the left-hand limit does not equal the function value, f is not continuous at x = 1. Interpretation: the mismatch arises from differing algebraic rules on each side of the breakpoint."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Basic Classes of Functions",
+    "chapter": 1,
+    "difficulty": "hard",
+    "layer": "procedural",
+    "content_type": "hint",
+    "source": "OpenStax",
+    "content": "For piecewise functions, evaluate limits from each side using the appropriate formula. Check the function value last. Do not assume continuity just because both pieces are polynomials."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Basic Classes of Functions",
+    "chapter": 1,
+    "difficulty": "hard",
+    "layer": "procedural",
+    "content_type": "mistake",
+    "source": "OpenStax",
+    "content": "A common mistake is plugging x = 1 into both formulas, even though only one applies. This leads to incorrect conclusions about continuity."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Review of Functions",
+    "chapter": 1,
+    "difficulty": "medium",
+    "layer": "procedural",
+    "content_type": "example",
+    "source": "OpenStax",
+    "content": "Given a table where x = {−2, −1, 0, 1} and f(x) = {4, 1, 0, 1}, determine whether the function is even, odd, or neither. Compute f(−x) values: f(2) is not defined, so symmetry conditions cannot be satisfied over the domain. Since the domain is not symmetric about zero, the function is neither even nor odd. Interpretation: symmetry requires both matching values and symmetric domains."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Review of Functions",
+    "chapter": 1,
+    "difficulty": "medium",
+    "layer": "procedural",
+    "content_type": "hint",
+    "source": "OpenStax",
+    "content": "Check domain symmetry before testing f(−x). Even perfect numerical symmetry fails if corresponding domain points are missing."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Review of Functions",
+    "chapter": 1,
+    "difficulty": "medium",
+    "layer": "procedural",
+    "content_type": "mistake",
+    "source": "OpenStax",
+    "content": "Students often compare values mechanically without verifying that −x is in the domain. This leads to incorrect symmetry classifications."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Basic Classes of Functions",
+    "chapter": 1,
+    "difficulty": "medium",
+    "layer": "procedural",
+    "content_type": "example",
+    "source": "OpenStax",
+    "content": "Classify f(x) = (x² + 1)/x as a function type and determine its domain. Recognize this as a rational function since it is a ratio of polynomials. The denominator requires x ≠ 0. Simplify algebraically only if needed, but classification depends on structure, not simplification. Interpretation: rational functions may contain both polynomial-like growth and asymptotic behavior."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Basic Classes of Functions",
+    "chapter": 1,
+    "difficulty": "medium",
+    "layer": "procedural",
+    "content_type": "hint",
+    "source": "OpenStax",
+    "content": "Identify function classes from their algebraic form first. Determine domain restrictions before attempting graph-related conclusions."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Basic Classes of Functions",
+    "chapter": 1,
+    "difficulty": "medium",
+    "layer": "procedural",
+    "content_type": "mistake",
+    "source": "OpenStax",
+    "content": "A frequent mistake is labeling a function as polynomial after canceling terms. Any variable in a denominator disqualifies it as a polynomial, even after simplification."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Trigonometric Functions",
+    "chapter": 1,
+    "difficulty": "hard",
+    "layer": "procedural",
+    "content_type": "example",
+    "source": "OpenStax",
+    "content": "Solve the equation 2sin^2(x) − 3sin(x) + 1 = 0 on the interval [0, 2π). Treat this as a quadratic in sin(x). Let u = sin(x), giving 2u^2 − 3u + 1 = 0. Factor to obtain (2u − 1)(u − 1) = 0, so u = 1/2 or u = 1. Translate back to trigonometric equations: sin(x) = 1/2 and sin(x) = 1. For sin(x) = 1/2, the reference angle is π/6, and sine is positive in Quadrants I and II, giving x = π/6 and x = 5π/6. For sin(x) = 1, the solution is x = π/2. All solutions lie in [0, 2π). Interpretation: rewriting trigonometric equations algebraically allows systematic solution, but final answers must be expressed as angles within the specified interval."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Trigonometric Functions",
+    "chapter": 1,
+    "difficulty": "hard",
+    "layer": "procedural",
+    "content_type": "hint",
+    "source": "OpenStax",
+    "content": "When powers of sine or cosine appear, first rewrite the equation as a polynomial in a single trigonometric function. Solve algebraically, then convert each resulting value back into angle solutions using unit-circle reasoning."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Trigonometric Functions",
+    "chapter": 1,
+    "difficulty": "hard",
+    "layer": "procedural",
+    "content_type": "mistake",
+    "source": "OpenStax",
+    "content": "A common error is solving the quadratic correctly but reporting only one angle per trigonometric value. Each valid sine or cosine value may correspond to multiple angles in the interval."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Inverse Functions",
+    "chapter": 1,
+    "difficulty": "medium",
+    "layer": "procedural",
+    "content_type": "example",
+    "source": "OpenStax",
+    "content": "Evaluate the expression cos⁻¹(cos(5π/4)). First compute the inner cosine: cos(5π/4) = −√2/2. Now interpret cos⁻¹(−√2/2) as the angle θ such that cos(θ) = −√2/2 and 0 ≤ θ ≤ π, since this is the range of the inverse cosine. Although 5π/4 has cosine −√2/2, it lies outside the principal range. The angle in [0, π] with the same cosine value is θ = 3π/4. Therefore, cos⁻¹(cos(5π/4)) = 3π/4. Interpretation: inverse trigonometric functions return principal values, not the original angles, unless those angles already lie in the restricted range."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Inverse Functions",
+    "chapter": 1,
+    "difficulty": "medium",
+    "layer": "procedural",
+    "content_type": "hint",
+    "source": "OpenStax",
+    "content": "When evaluating expressions of the form f⁻¹(f(x)), always check whether x lies in the restricted domain of the original function used to define the inverse. If not, adjust to the equivalent angle within the principal range."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Inverse Functions",
+    "chapter": 1,
+    "difficulty": "medium",
+    "layer": "procedural",
+    "content_type": "mistake",
+    "source": "OpenStax",
+    "content": "Students often assume cos⁻¹(cos(x)) = x for all x. This ignores the fact that the inverse cosine only outputs values between 0 and π, causing incorrect conclusions for angles outside that interval."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Exponential and logarithmic functions",
+    "chapter": 1,
+    "difficulty": "hard",
+    "layer": "procedural",
+    "content_type": "example",
+    "source": "OpenStax",
+    "content": "Solve the equation e^{2x}/(3 + e^{2x}) = 1/2 exactly. Begin by clearing the denominator: multiply both sides by (3 + e^{2x}) to obtain e^{2x} = (1/2)(3 + e^{2x}). Distribute to get e^{2x} = 3/2 + (1/2)e^{2x}. Subtract (1/2)e^{2x} from both sides, giving (1/2)e^{2x} = 3/2. Multiply by 2 to isolate the exponential term: e^{2x} = 3. Take the natural logarithm of both sides: 2x = ln 3. Solve for x: x = (1/2)ln 3. Interpretation: equations with exponentials in both numerator and denominator often reduce to algebraic equations after clearing fractions and collecting like exponential terms."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Exponential and logarithmic functions",
+    "chapter": 1,
+    "difficulty": "hard",
+    "layer": "procedural",
+    "content_type": "hint",
+    "source": "OpenStax",
+    "content": "When exponentials appear in rational form, first clear denominators before applying logarithms. Treat expressions like e^{2x} as a single algebraic variable until the final step."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Exponential and logarithmic functions",
+    "chapter": 1,
+    "difficulty": "hard",
+    "layer": "procedural",
+    "content_type": "mistake",
+    "source": "OpenStax",
+    "content": "A common error is taking logarithms before isolating the exponential term, which leads to invalid log expressions involving sums such as ln(3 + e^{2x})."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Exponential and logarithmic functions",
+    "chapter": 1,
+    "difficulty": "medium",
+    "layer": "procedural",
+    "content_type": "example",
+    "source": "OpenStax",
+    "content": "Solve the logarithmic equation ln(x − 2) + ln(x) = ln(3). First apply the product property: ln[x(x − 2)] = ln(3). Exponentiate both sides to remove the logarithm: x(x − 2) = 3. Expand to obtain x^2 − 2x − 3 = 0. Factor the quadratic: (x − 3)(x + 1) = 0, giving x = 3 or x = −1. Check against domain restrictions from the original logarithms: x − 2 > 0 and x > 0 imply x > 2. Therefore, x = 3 is valid and x = −1 is extraneous. Interpretation: logarithmic equations must always be checked against domain constraints to eliminate invalid solutions."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Exponential and logarithmic functions",
+    "chapter": 1,
+    "difficulty": "medium",
+    "layer": "procedural",
+    "content_type": "hint",
+    "source": "OpenStax",
+    "content": "Before solving, write down all domain restrictions implied by logarithms. After solving algebraically, test every solution against those restrictions."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "Exponential and logarithmic functions",
+    "chapter": 1,
+    "difficulty": "medium",
+    "layer": "procedural",
+    "content_type": "mistake",
+    "source": "OpenStax",
+    "content": "Students often stop after factoring the quadratic and report all roots. Forgetting to check logarithmic domains leads to extraneous solutions."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "A preview of calculus",
+    "chapter": 1,
+    "difficulty": "hard",
+    "layer": "procedural",
+    "content_type": "example",
+    "source": "OpenStax",
+    "content": "Consider the function f(x) = (x^2 − 1)/(x − 1). Use numerical reasoning to predict the behavior of f(x) near x = 1. Simplify algebraically for x ≠ 1: f(x) = x + 1. Construct a table of values close to x = 1 from both sides (e.g., 0.9, 0.99, 1.01). In each case, f(x) ≈ x + 1 approaches 2 as x approaches 1. Although f(1) is undefined, the outputs approach a single value. Interpretation: this anticipates the concept of a limit, showing how function values near a point can approach a finite number even when the function is not defined at that point."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "A preview of calculus",
+    "chapter": 1,
+    "difficulty": "hard",
+    "layer": "procedural",
+    "content_type": "hint",
+    "source": "OpenStax",
+    "content": "To anticipate limits, simplify the function algebraically where possible and analyze values near the point of interest rather than substituting directly."
+  },
+  {
+    "topic": "functions",
+    "subtopic": "A preview of calculus",
+    "chapter": 1,
+    "difficulty": "hard",
+    "layer": "procedural",
+    "content_type": "mistake",
+    "source": "OpenStax",
+    "content": "A frequent misconception is concluding that no meaningful behavior exists near x = 1 simply because the function is undefined there, ignoring nearby values."
+  }
+]

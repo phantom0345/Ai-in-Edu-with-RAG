@@ -1,0 +1,317 @@
+[
+    {
+        "topic": "integration",
+        "subtopic": "Exponential Growth",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Exponential growth describes situations where a quantity increases at a rate proportional to its current amount. This means the more you have, the faster it grows. Such behavior appears in populations, investments with continuous compounding, and spread of information. The key idea is proportional change: growth does not add a fixed amount each time, but multiplies over equal time intervals."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Exponential Growth",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A bacterial population starting at 500 and growing proportionally will increase faster as the population becomes larger."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Exponential Growth",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Ask whether the rate depends on the current size."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Exponential Growth",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Confusing exponential growth with linear growth leads to incorrect models."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Exponential Growth",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Growth rate increases as the quantity increases."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Exponential Decay",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Exponential decay models situations where a quantity decreases at a rate proportional to its current value. As the amount shrinks, the rate of decrease also slows down. This behavior is common in radioactive decay, cooling processes, and depreciation."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Exponential Decay",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A hot object cools rapidly at first, then more slowly as it approaches room temperature."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Exponential Decay",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Decay models always involve a decreasing exponential."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Exponential Decay",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Using a negative base instead of a negative exponent is incorrect."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Exponential Decay",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Decay slows as the quantity gets smaller."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Doubling Time",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Doubling time is the fixed amount of time it takes for an exponentially growing quantity to double in size. A key feature is that doubling time does not depend on the starting amount, only on the growth rate. Faster growth means shorter doubling time."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Doubling Time",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If a population doubles every 6 months, it will also double from 10,000 to 20,000 in the same time."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Doubling Time",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Doubling time depends only on the growth constant."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Doubling Time",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Assuming doubling time changes with initial value is incorrect."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Doubling Time",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Doubling time measures exponential speed of growth."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Half-Life",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Half-life is the fixed amount of time required for an exponentially decaying quantity to reduce to half its current value. Like doubling time, half-life depends only on the decay rate, not on how much substance is present."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Half-Life",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Carbon-14 loses half of its mass every 5730 years regardless of the starting amount."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Half-Life",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Each half-life cuts the remaining amount in half."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Half-Life",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Subtracting half instead of multiplying by one-half is incorrect."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Half-Life",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Half-life measures exponential decay speed."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Hyperbolic Functions Overview",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Hyperbolic functions are built from exponential functions and resemble trigonometric functions in form but not behavior. They naturally arise in problems involving growth, decay, and shapes like hanging cables."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Hyperbolic Functions Overview",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "The graph of hyperbolic cosine resembles a smooth bowl opening upward."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Hyperbolic Functions Overview",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Hyperbolic functions use exponentials, not angles."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Hyperbolic Functions Overview",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Treating hyperbolic functions as periodic is incorrect."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Hyperbolic Functions Overview",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Hyperbolic functions model exponential-based behavior."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Derivatives of Hyperbolic Functions",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The derivatives of hyperbolic functions closely resemble those of trigonometric functions, but without sign changes in some cases. These derivative rules make hyperbolic functions easy to differentiate and integrate."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Derivatives of Hyperbolic Functions",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "The derivative of hyperbolic sine is hyperbolic cosine."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Derivatives of Hyperbolic Functions",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Compare with sine and cosine derivatives."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Derivatives of Hyperbolic Functions",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Adding unnecessary negative signs causes errors."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Derivatives of Hyperbolic Functions",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Hyperbolic derivatives follow simple exponential rules."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Catenary Curves",
+        "chapter": 6,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "A catenary is the curve formed by a hanging cable under its own weight. Unlike a parabola, it is modeled using the hyperbolic cosine function. This curve minimizes tension and appears in engineering and physics applications."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Catenary Curves",
+        "chapter": 6,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Power lines suspended between two poles naturally form a catenary shape."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Catenary Curves",
+        "chapter": 6,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Catenaries arise from uniform weight distribution."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Catenary Curves",
+        "chapter": 6,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Modeling hanging cables as parabolas is only an approximation."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Catenary Curves",
+        "chapter": 6,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Catenaries are modeled using hyperbolic cosine."
+    }
+]

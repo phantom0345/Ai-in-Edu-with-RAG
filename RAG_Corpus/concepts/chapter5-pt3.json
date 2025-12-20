@@ -1,0 +1,272 @@
+[
+    {
+        "topic": "integration",
+        "subtopic": "Substitution",
+        "chapter": 5,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Substitution is a technique that simplifies integrals by reversing the chain rule. When an integrand contains a function and its derivative multiplied together, we can replace the inner function with a new variable. This change of variables turns a complicated integral into a simpler one that matches basic integration rules."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Substitution",
+        "chapter": 5,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If an integral contains (x²−3)³·2x, letting u = x²−3 turns the integral into one involving u³, which is easy to integrate."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Substitution",
+        "chapter": 5,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Look for an inner expression whose derivative also appears in the integrand."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Substitution",
+        "chapter": 5,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Choosing u without accounting for du leaves extra variables in the integral."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Substitution",
+        "chapter": 5,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Substitution simplifies integrals by changing variables."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Substitution with Definite Integrals",
+        "chapter": 5,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Substitution also works for definite integrals, but the limits must change to match the new variable. Instead of switching back to the original variable at the end, we adjust the bounds using the substitution rule. This keeps the computation consistent."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Substitution with Definite Integrals",
+        "chapter": 5,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If u = 1 + 2x³, then x=0 and x=1 correspond to u=1 and u=3. The new limits are used directly in the u-integral."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Substitution with Definite Integrals",
+        "chapter": 5,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Always convert the limits before integrating in u."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Substitution with Definite Integrals",
+        "chapter": 5,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Forgetting to change limits leads to incorrect values."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Substitution with Definite Integrals",
+        "chapter": 5,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Definite integrals require changing limits under substitution."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Integrals of Exponential Functions",
+        "chapter": 5,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Exponential functions are especially simple to integrate. The natural exponential eˣ is its own derivative and antiderivative. Other exponential bases integrate similarly but require a constant factor involving the natural logarithm of the base."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Integrals of Exponential Functions",
+        "chapter": 5,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "The integral of eˣ is eˣ + C, while the integral of 2ˣ is 2ˣ divided by ln(2), plus a constant."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Integrals of Exponential Functions",
+        "chapter": 5,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Check whether the exponent is a simple x or a more complex expression."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Integrals of Exponential Functions",
+        "chapter": 5,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Using the power rule on exponential functions is incorrect."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Integrals of Exponential Functions",
+        "chapter": 5,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Exponential integrals closely mirror exponential derivatives."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Substitution with Exponential Functions",
+        "chapter": 5,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "When exponential functions contain inner expressions, substitution is often required. By letting u equal the exponent, the integral becomes a basic exponential integral. Constant factors may need to be adjusted to match du."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Substitution with Exponential Functions",
+        "chapter": 5,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "In an integral like x²e^(2x³), letting u = 2x³ simplifies the expression to an integral of eᵘ."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Substitution with Exponential Functions",
+        "chapter": 5,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Choose u to be the exponent of e whenever possible."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Substitution with Exponential Functions",
+        "chapter": 5,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Forgetting to adjust constants causes incorrect antiderivatives."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Substitution with Exponential Functions",
+        "chapter": 5,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Exponential substitution targets the exponent."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Integrals of Logarithmic Functions",
+        "chapter": 5,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Logarithmic integrals often involve the function 1/x, which integrates to the natural logarithm. More complex logarithmic functions may require substitution or integration formulas derived from differentiation rules."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Integrals of Logarithmic Functions",
+        "chapter": 5,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "The integral of 1/x is ln|x| + C, while integrating ln(x) produces x(ln x − 1) + C."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Integrals of Logarithmic Functions",
+        "chapter": 5,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Check whether rewriting the integrand reveals a 1/x structure."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Integrals of Logarithmic Functions",
+        "chapter": 5,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Ignoring absolute values in logarithmic results is incorrect."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Integrals of Logarithmic Functions",
+        "chapter": 5,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Logarithmic integrals rely on recognizing 1/x patterns."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Integrals Resulting in Inverse Trigonometric Functions",
+        "chapter": 5,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Some integrals produce inverse trigonometric functions as results. These occur when the integrand matches forms related to derivatives of inverse sine, inverse tangent, or inverse secant. Substitution is often needed to match these standard forms."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Integrals Resulting in Inverse Trigonometric Functions",
+        "chapter": 5,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "An integral of the form 1/√(a²−x²) leads to an inverse sine expression."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Integrals Resulting in Inverse Trigonometric Functions",
+        "chapter": 5,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Compare the integrand to known inverse trig derivatives."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Integrals Resulting in Inverse Trigonometric Functions",
+        "chapter": 5,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Forgetting domain restrictions can invalidate inverse trig results."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Integrals Resulting in Inverse Trigonometric Functions",
+        "chapter": 5,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Certain integrals naturally produce inverse trigonometric functions."
+    }
+]

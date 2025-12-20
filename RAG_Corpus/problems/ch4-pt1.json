@@ -1,0 +1,282 @@
+[
+    {
+        "topic": "functions",
+        "subtopic": "Related rates",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A ladder 25 ft long is leaning against a vertical wall. The bottom of the ladder is sliding away from the wall at 3 ft/sec. Find the rate at which the top of the ladder is sliding down the wall when the bottom is 7 ft from the wall. Let x be the distance of the bottom from the wall and y be the height of the top. The ladder length gives the relation x^2 + y^2 = 625. Differentiate with respect to time: 2x(dx/dt) + 2y(dy/dt) = 0. Solve for dy/dt: dy/dt = −(x/y)(dx/dt). When x = 7, compute y = √(625 − 49) = 24. Substitute dx/dt = 3 to get dy/dt = −(7/24)(3) = −7/8 ft/sec. Interpretation: the negative sign indicates the top is moving downward, and the magnitude gives the instantaneous speed."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Related rates",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Begin by assigning variables to all changing quantities and write a single geometric or physical equation relating them. Differentiate before substituting numerical values; otherwise, variables may incorrectly behave as constants."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Related rates",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A common error is plugging in known distances before differentiating, which causes their derivatives to vanish. This leads to equations that incorrectly suggest zero rates of change."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Linear Approximations and differentials",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Use linear approximation to estimate √(10.2). Let f(x) = √x and choose a nearby point a = 10. Compute f(10) = √10 and f′(x) = 1/(2√x), so f′(10) = 1/(2√10). The linear approximation at x = 10 is L(x) = √10 + (1/(2√10))(x − 10). Substitute x = 10.2 to obtain L(10.2) = √10 + (0.2)/(2√10). Numerically this gives an estimate close to the true value. Interpretation: linearization uses the tangent line to approximate function values near a known point."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Linear Approximations and differentials",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A cube has side length measured as 12 cm with a possible error of ±0.1 cm. Use differentials to estimate the maximum error in the computed volume. The volume is V = x^3, so dV = 3x^2 dx. Using x = 12 and |dx| ≤ 0.1, compute |dV| ≤ 3(12)^2(0.1) = 43.2 cm^3. Interpretation: differentials provide a quick way to estimate propagated error without recalculating exact volumes."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Linear Approximations and differentials",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Choose the expansion point a where the function value and derivative are easy to compute. Keep dx small; linear approximations are reliable only near the chosen point."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Linear Approximations and differentials",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Students often confuse Δy with dy. The differential dy approximates the change but is not the exact change unless the function is linear."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Maxima and Minima",
+        "chapter": 4,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Find the absolute maximum and minimum of f(x) = −x^2 + 3x − 2 on the closed interval [1, 3]. First verify applicability: f is a polynomial, so it is continuous on [1,3] and differentiable on (1,3). Compute the derivative f′(x) = −2x + 3. Set f′(x)=0 to find critical points: −2x + 3 = 0 gives x = 3/2, which lies in (1,3). Evaluate f at the endpoints and the critical point: f(1)=0, f(3)=−2, and f(3/2)=1/4. Compare these values. The largest value is 1/4 at x=3/2, so this is the absolute maximum. The smallest value is −2 at x=3, so this is the absolute minimum. Interpretation: absolute extrema on closed intervals must occur at endpoints or interior critical points, so systematic evaluation is essential."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Maxima and Minima",
+        "chapter": 4,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Find all local extrema of f(x)=x^3−3x^2+2. Compute the derivative: f′(x)=3x^2−6x=3x(x−2). Set f′(x)=0 to find critical points at x=0 and x=2. To classify them, examine the sign of f′ around each point. For x<0, choose x=−1: f′(−1)>0. For 0<x<2, choose x=1: f′(1)<0. For x>2, choose x=3: f′(3)>0. The derivative changes from positive to negative at x=0, indicating a local maximum there. It changes from negative to positive at x=2, indicating a local minimum. Compute the function values: f(0)=2 and f(2)=−2. Interpretation: critical points are only candidates for extrema; sign analysis of the derivative determines whether each is a maximum, minimum, or neither."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Maxima and Minima",
+        "chapter": 4,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "When working on a closed interval, always follow a fixed procedure: find critical points in the open interval, evaluate the function at those points and at the endpoints, then compare all resulting values. Skipping endpoint checks is a common source of errors."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Maxima and Minima",
+        "chapter": 4,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A common mistake is assuming every critical point corresponds to a local extremum. Points where f′(x)=0 may correspond to inflection points instead. Classification requires additional analysis, such as a sign chart or second-derivative reasoning."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The Mean Value Theorem",
+        "chapter": 4,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Verify that the Mean Value Theorem applies to f(x)=x^2 on the interval [1,4], and find all values c guaranteed by the theorem. Since f is a polynomial, it is continuous on [1,4] and differentiable on (1,4), so the theorem applies. Compute the average rate of change: (f(4)−f(1))/(4−1)=(16−1)/3=5. Compute the derivative f′(x)=2x. Set f′(c)=5 to satisfy the Mean Value Theorem. Solving 2c=5 gives c=5/2, which lies in (1,4). Interpretation: at x=5/2, the instantaneous slope of the tangent line equals the slope of the secant line joining the endpoints."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The Mean Value Theorem",
+        "chapter": 4,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Determine whether the Mean Value Theorem applies to f(x)=|x−1| on the interval [0,2]. First check continuity: the absolute value function is continuous everywhere, so f is continuous on [0,2]. Next check differentiability on (0,2). The function has a corner at x=1, so f′(1) does not exist. Because differentiability fails at an interior point, the hypotheses of the Mean Value Theorem are not satisfied. Therefore, no value c is guaranteed by the theorem. Interpretation: continuity alone is insufficient; differentiability on the entire open interval is essential for applying the Mean Value Theorem."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The Mean Value Theorem",
+        "chapter": 4,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Before solving for c, always explicitly verify continuity on the closed interval and differentiability on the open interval. If either condition fails, stop—no value of c is guaranteed, regardless of algebraic results."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The Mean Value Theorem",
+        "chapter": 4,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Students often compute f′(c)=(f(b)−f(a))/(b−a) without checking the theorem’s hypotheses. This can produce a numerical solution even when the Mean Value Theorem does not apply, leading to unjustified conclusions."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "<Derivatives and the Shape of a Graph|Limits at infinity and Asymptotes>",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Determine all horizontal and oblique asymptotes of the function f(x) = (2x^3 − 5x^2 + 4)/(x^2 − 1), and describe the end behavior. Begin by comparing degrees: the numerator has degree 3 and the denominator degree 2, so no horizontal asymptote exists and an oblique asymptote is possible. Perform polynomial long division: divide 2x^3 − 5x^2 + 0x + 4 by x^2 − 1. The quotient is 2x − 5 and the remainder is 2x − 1, so f(x) = 2x − 5 + (2x − 1)/(x^2 − 1). Next, analyze the remainder term. As x → ±∞, (2x − 1)/(x^2 − 1) → 0 because the denominator grows faster than the numerator. Therefore, f(x) − (2x − 5) → 0 as x → ±∞, and the line y = 2x − 5 is an oblique asymptote. Conclude the end behavior: the graph approaches this line from above or below depending on the sign of the remainder for large |x|, rather than flattening toward a constant value."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "<Derivatives and the Shape of a Graph|Limits at infinity and Asymptotes>",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Analyze the end behavior of f(x) = (5x^2 + 3x)/(x^2 + 4x + 1) and identify all horizontal asymptotes. First, note that the degrees of the numerator and denominator are equal. Divide both numerator and denominator by x^2 to normalize the expression. This gives f(x) = (5 + 3/x)/(1 + 4/x + 1/x^2). Next, evaluate limits term by term. As x → ∞, the fractions 3/x, 4/x, and 1/x^2 all approach zero, so the expression approaches 5/1 = 5. Repeat for x → −∞; the same fractional terms still approach zero, so the limit is again 5. Thus, y = 5 is the horizontal asymptote on both ends. Finally, interpret the result graphically: even though the function may cross y = 5 for finite x, its values get arbitrarily close to 5 as x becomes large in magnitude, confirming the horizontal asymptote and the symmetric end behavior."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "<Derivatives and the Shape of a Graph|Limits at infinity and Asymptotes>",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "When evaluating limits at infinity for rational functions, avoid expanding or factoring first. Instead, compare degrees immediately. If degrees are equal, divide by the highest power of x in the denominator. If the numerator’s degree is one higher, use long division to test for an oblique asymptote. This approach keeps the dominant terms visible and prevents unnecessary algebra that can obscure the end behavior."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "<Derivatives and the Shape of a Graph|Limits at infinity and Asymptotes>",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A common error is assuming that any rational function with numerator degree larger than denominator degree has no asymptote at all. In fact, such functions often have oblique asymptotes. Skipping polynomial long division leads to the incorrect conclusion that the function simply diverges to infinity without structure. Always check whether subtracting a linear function causes the difference to approach zero as x → ±∞."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Applied Optimization Problems",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A rectangular box with a square base and open top must have volume 216 cubic inches. Determine the dimensions that minimize surface area. Let x denote the side length of the square base and y the height. Write the volume constraint as x^2 y = 216 and solve for y = 216 / x^2. The surface area includes the base and four sides, so S = x^2 + 4xy. Substitute for y to express surface area as a single-variable function: S(x) = x^2 + 4x(216 / x^2) = x^2 + 864/x. Determine the domain x > 0. Differentiate: S'(x) = 2x − 864/x^2. Set S'(x) = 0 to find critical points, giving 2x = 864/x^2, or x^3 = 432. Thus x = 432^(1/3). Verify this critical point gives a minimum by noting S(x) → ∞ as x → 0^+ and as x → ∞. Compute y using the constraint. Conclude that the minimum surface area occurs when the height is half the base length, a result consistent with symmetry in optimization problems."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "L Hospitals rule",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Before applying L’Hospital’s rule, always verify that the limit produces an indeterminate form such as 0/0 or ∞/∞. Evaluate the limits of the numerator and denominator separately first. If the form is not indeterminate, do not differentiate. After differentiation, re-check the resulting limit; repeated application is allowed only if the new expression remains indeterminate. Remember that L’Hospital’s rule applies to limits, not to simplifying algebraic expressions or finding derivatives of quotients."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "L Hospitals rule",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A common process-level mistake is applying L’Hospital’s rule to limits that are not indeterminate. For example, differentiating numerator and denominator when the limit evaluates directly to a finite nonzero number leads to incorrect results. Another frequent error is assuming that L’Hospital’s rule gives the derivative of a quotient; it does not. It only relates the limit of a quotient to the limit of the quotient of derivatives. Skipping verification of differentiability near the limit point is another subtle but critical mistake."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Implicit Differentiation|Derivatives of Exponential and logarithmic functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Differentiate implicitly the equation x^2 e^y + y ln(x) = 3 with respect to x and solve for dy/dx. Treat y as a function of x throughout. First differentiate each term: for x^2 e^y, apply the product rule, giving 2x e^y + x^2 e^y dy/dx. For y ln(x), again use the product rule: dy/dx · ln(x) + y · (1/x). The derivative of the constant 3 is zero. Collect all terms containing dy/dx on one side: x^2 e^y dy/dx + ln(x) dy/dx = −2x e^y − y/x. Factor dy/dx from the left-hand side: dy/dx (x^2 e^y + ln(x)) = −2x e^y − y/x. Finally, divide by (x^2 e^y + ln(x)) to isolate dy/dx. The result is dy/dx = (−2x e^y − y/x) / (x^2 e^y + ln(x))."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Implicit Differentiation|Derivatives of Exponential and logarithmic functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Start by deciding which terms require the product rule before differentiating. When y appears inside an exponential or logarithm, always multiply by dy/dx via the chain rule. Write dy/dx explicitly for every derivative of y. After differentiation, group all dy/dx terms on one side before simplifying. Avoid canceling terms involving y too early; isolate dy/dx first, then simplify the final expression."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Implicit Differentiation|Derivatives of Exponential and logarithmic functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A common setup error is differentiating e^y or ln(y) as if y were constant, omitting the factor dy/dx. Another frequent mistake is forgetting the product rule when y multiplies a logarithmic or exponential term. Students also sometimes divide by a partial expression instead of the entire coefficient of dy/dx, leading to an incorrect final derivative."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Implicit Differentiation|Derivatives of Exponential and logarithmic functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Find dy/dx for the curve defined by e^{xy} + ln(y) = x. Differentiate both sides with respect to x. For e^{xy}, apply the chain rule: e^{xy} · d(xy)/dx = e^{xy}(y + x dy/dx). The derivative of ln(y) is (1/y) dy/dx, and the derivative of x is 1. Combine terms: e^{xy}(y + x dy/dx) + (1/y) dy/dx = 1. Expand to separate dy/dx terms: e^{xy}y + x e^{xy} dy/dx + (1/y) dy/dx = 1. Move the non–dy/dx term to the right: x e^{xy} dy/dx + (1/y) dy/dx = 1 − e^{xy}y. Factor dy/dx: dy/dx (x e^{xy} + 1/y) = 1 − y e^{xy}. Divide to solve: dy/dx = (1 − y e^{xy}) / (x e^{xy} + 1/y)."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Implicit Differentiation|Derivatives of Exponential and logarithmic functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "When the variable appears in an exponent as a product like xy, compute the derivative of the exponent first before multiplying by the exponential. Keep expressions factored until all dy/dx terms are collected. Writing 1/y instead of y^{−1} often makes factoring dy/dx clearer in the final steps."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Implicit Differentiation|Derivatives of Exponential and logarithmic functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A frequent error is differentiating e^{xy} as e^{xy}·dy/dx, ignoring the derivative of x in the exponent. Another mistake is distributing e^{xy} incorrectly before applying the product rule, which leads to missing terms. Students also sometimes try to solve for y explicitly before differentiating, which is unnecessary and often impossible."
+    }
+]

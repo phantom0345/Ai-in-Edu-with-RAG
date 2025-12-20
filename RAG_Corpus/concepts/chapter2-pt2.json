@@ -1,0 +1,227 @@
+[
+    {
+        "topic": "limits",
+        "subtopic": "Continuity at a Point",
+        "chapter": 2,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "A function is continuous at a point if its graph has no breaks or holes at that point. Intuitively, you should be able to draw the graph through that point without lifting your pencil. Continuity depends on three conditions: the function must be defined at the point, the limit must exist at that point, and the limit must equal the function’s value there. If any one of these fails, the function is not continuous at that point. :contentReference[oaicite:0]{index=0}"
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Continuity at a Point",
+        "chapter": 2,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "The function f(x) = x² is continuous at x = 2 because f(2) is defined, the limit as x approaches 2 exists, and both equal 4."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Continuity at a Point",
+        "chapter": 2,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Check continuity by verifying the three conditions one by one instead of guessing from the graph alone."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Continuity at a Point",
+        "chapter": 2,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Assuming a function is continuous just because it looks smooth can be misleading if there is a hidden hole."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Continuity at a Point",
+        "chapter": 2,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Continuity at a point means the function value and the limit agree there."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Types of Discontinuities",
+        "chapter": 2,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Discontinuities describe different ways continuity can fail. A removable discontinuity appears as a hole where the limit exists but the function value is missing or incorrect. A jump discontinuity occurs when left- and right-hand limits exist but are not equal. An infinite discontinuity happens when function values grow without bound near a point, usually at a vertical asymptote."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Types of Discontinuities",
+        "chapter": 2,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "The function f(x) = (x² − 4)/(x − 2) has a removable discontinuity at x = 2 because the limit exists but the function is undefined."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Types of Discontinuities",
+        "chapter": 2,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Look at one-sided limits to distinguish between jump and infinite discontinuities."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Types of Discontinuities",
+        "chapter": 2,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Thinking all discontinuities are removable ignores jumps and asymptotes."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Types of Discontinuities",
+        "chapter": 2,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Discontinuities are classified as removable, jump, or infinite based on limit behavior."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Continuity on an Interval",
+        "chapter": 2,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "A function is continuous on an interval if it is continuous at every point in that interval. For closed intervals, the function must also be right-continuous at the left endpoint and left-continuous at the right endpoint. This ensures the graph can be traced across the entire interval without breaks."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Continuity on an Interval",
+        "chapter": 2,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "The polynomial f(x) = 4 − x² is continuous on the closed interval [−2, 2]."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Continuity on an Interval",
+        "chapter": 2,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Polynomials are continuous everywhere, so focus on domain restrictions for rational functions."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Continuity on an Interval",
+        "chapter": 2,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Forgetting endpoint behavior can lead to incorrect conclusions about closed intervals."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Continuity on an Interval",
+        "chapter": 2,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Continuity on an interval requires no breaks anywhere inside it."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Intermediate Value Theorem",
+        "chapter": 2,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The Intermediate Value Theorem (IVT) states that if a function is continuous on a closed interval [a, b], then it takes every value between f(a) and f(b). This theorem guarantees the existence of solutions without finding them explicitly."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Intermediate Value Theorem",
+        "chapter": 2,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If f(0) = −1 and f(π/2) > 0, continuity ensures there is a value c between 0 and π/2 where f(c) = 0."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Intermediate Value Theorem",
+        "chapter": 2,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "IVT requires continuity—sign changes alone are not enough."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Intermediate Value Theorem",
+        "chapter": 2,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Applying IVT to functions with discontinuities leads to false conclusions."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Intermediate Value Theorem",
+        "chapter": 2,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "IVT guarantees intermediate values for continuous functions on closed intervals."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Epsilon-Delta Definition of a Limit",
+        "chapter": 2,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The epsilon-delta definition formalizes limits using precise distance language. It states that f(x) approaches L as x approaches a if for every small tolerance ε around L, there exists a distance δ around a such that whenever x is within δ of a (but not equal to a), f(x) stays within ε of L. This captures the idea of controllable closeness."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Epsilon-Delta Definition of a Limit",
+        "chapter": 2,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "To show lim x→1 (2x + 1) = 3, we choose δ = ε/2 so that keeping x close to 1 forces the function close to 3."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Epsilon-Delta Definition of a Limit",
+        "chapter": 2,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Work backward from |f(x) − L| < ε to find a suitable δ."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Epsilon-Delta Definition of a Limit",
+        "chapter": 2,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Choosing δ depending on x instead of ε violates the definition."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Epsilon-Delta Definition of a Limit",
+        "chapter": 2,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "The epsilon-delta definition makes the idea of limits mathematically precise."
+    }
+]

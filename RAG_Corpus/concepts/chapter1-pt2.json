@@ -1,0 +1,272 @@
+[
+    {
+        "topic": "functions",
+        "subtopic": "Trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Trigonometric functions relate angles to coordinates on the unit circle. Each angle corresponds to a point on the circle, and the sine and cosine of the angle are simply the y- and x-coordinates of that point. This circular viewpoint helps explain why trigonometric functions repeat their values and why they are useful for modeling periodic phenomena like waves and oscillations. :contentReference[oaicite:0]{index=0}"
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "An angle of π/2 radians corresponds to the top of the unit circle. The point there is (0, 1), so cos(π/2) = 0 and sin(π/2) = 1."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Always picture the unit circle when working with sine and cosine—it keeps signs and values consistent."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A common mistake is mixing degrees and radians. In calculus, angles are almost always measured in radians."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Trigonometric functions use angles to locate points on a circle, naturally leading to repeating, wave-like behavior."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The six trigonometric functions—sine, cosine, tangent, and their reciprocals—can be defined using either the unit circle or right triangles. Sine and cosine are fundamental, while tangent compares sine to cosine. Their reciprocal functions describe inverse ratios. Understanding how these ratios depend on angle position is essential for evaluating values correctly."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If sin(θ) = 3/5 and cos(θ) = 4/5, then tan(θ) = (3/5)/(4/5) = 3/4. The reciprocal functions are csc(θ) = 5/3 and sec(θ) = 5/4."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Find sine and cosine first; the other four trigonometric functions follow easily."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Students often forget that tangent and secant are undefined when cosine is zero."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "All trigonometric functions are connected through sine and cosine, making relationships easier to remember."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Trigonometric functions are periodic, meaning their values repeat at regular intervals. Sine and cosine repeat every 2π radians, while tangent repeats every π radians. This periodicity explains why trigonometric graphs extend infinitely while maintaining a repeating pattern, a key idea for modeling cyclic behavior."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Since sin(x) = sin(x + 2π), the sine of 7π/6 equals the sine of 7π/6 − 2π = −5π/6."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Reduce angles by subtracting full periods to evaluate trig functions efficiently."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Assuming all trig functions share the same period leads to incorrect evaluations."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Periodicity allows trigonometric functions to model repeating patterns and simplifies angle evaluation."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Inverse Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "An inverse function reverses the action of a function. If a function takes an input and produces an output, the inverse starts with that output and returns the original input. Inverse functions only exist when each output comes from exactly one input."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Inverse Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If f(x) adds 3 to a number, then its inverse subtracts 3. Applying the inverse undoes the original operation."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Inverse Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Think of inverse functions as ‘undo’ buttons for processes."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Inverse Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "The notation f⁻¹(x) is often mistaken for 1/f(x), but it means inverse, not reciprocal."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Inverse Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Inverse functions reverse input-output relationships and only exist for one-to-one functions."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Inverse Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "A function must be one-to-one to have an inverse. Graphically, this means every horizontal line intersects the graph at most once. This ensures each output corresponds to only one input, making reversal possible."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Inverse Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "The function x² fails the horizontal line test, but restricting its domain to x ≥ 0 makes it one-to-one and invertible."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Inverse Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Use the horizontal line test to quickly check if an inverse can exist."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Inverse Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Forgetting to restrict the domain often leads to invalid inverse functions."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Inverse Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "One-to-one behavior is the key requirement for inverse functions."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Inverse Trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Inverse trigonometric functions return angles rather than ratios. Because trigonometric functions repeat values, their domains must be restricted before defining inverses. These restrictions ensure each ratio corresponds to exactly one angle."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Inverse Trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "cos⁻¹(1/2) equals π/3 because that angle lies in the defined range of the inverse cosine function."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Inverse Trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Always check that your angle lies within the principal interval of the inverse function."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Inverse Trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Assuming sin⁻¹(sin x) = x for all x ignores the restricted domain of the inverse sine."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Inverse Trigonometric Functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Inverse trigonometric functions return angles within restricted intervals, ensuring unique results."
+    }
+]

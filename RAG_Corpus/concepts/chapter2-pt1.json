@@ -1,0 +1,272 @@
+[
+    {
+        "topic": "limits",
+        "subtopic": "The Limit of a Function",
+        "chapter": 2,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The limit of a function describes what value the function outputs get close to as the input gets close to a specific number. The input does not need to actually reach that number. Instead, we focus on the behavior of the function near that point. Limits are the foundation of calculus because they allow us to study change and behavior even when a function is not defined at a point. :contentReference[oaicite:0]{index=0}"
+    },
+    {
+        "topic": "limits",
+        "subtopic": "The Limit of a Function",
+        "chapter": 2,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If a function’s values get closer and closer to 4 as x gets closer to 2 from both sides, we say the limit as x approaches 2 is 4, even if the function is undefined at x = 2."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "The Limit of a Function",
+        "chapter": 2,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Think of a limit as asking: “What number is the function approaching?” not “What is the function equal to?”"
+    },
+    {
+        "topic": "limits",
+        "subtopic": "The Limit of a Function",
+        "chapter": 2,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A common mistake is assuming the limit equals the function’s value at the point. These can be different."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "The Limit of a Function",
+        "chapter": 2,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Limits describe the behavior of a function near a point, not necessarily at the point itself."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Estimating Limits Using Tables",
+        "chapter": 2,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "A table of values helps estimate a limit by showing how function values behave as x approaches a target from both sides. If values from the left and right move toward the same number, the limit likely exists and equals that number."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Estimating Limits Using Tables",
+        "chapter": 2,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "When estimating lim x→0 (sin x)/x, table values close to zero show outputs approaching 1 from both sides."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Estimating Limits Using Tables",
+        "chapter": 2,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Always check values approaching from both the left and the right."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Estimating Limits Using Tables",
+        "chapter": 2,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Looking at only one side of the table can lead to incorrect conclusions."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Estimating Limits Using Tables",
+        "chapter": 2,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Tables reveal whether function values approach a single number from both directions."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "One-Sided Limits",
+        "chapter": 2,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "A one-sided limit looks at function behavior from only one direction. A left-hand limit considers values smaller than the point, while a right-hand limit considers values larger than the point."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "One-Sided Limits",
+        "chapter": 2,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If a function approaches −1 as x approaches 2 from the left and 1 from the right, the one-sided limits exist but are different."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "One-Sided Limits",
+        "chapter": 2,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Use graphs to clearly see left and right behavior."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "One-Sided Limits",
+        "chapter": 2,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Assuming a two-sided limit exists when left and right limits differ is incorrect."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "One-Sided Limits",
+        "chapter": 2,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "One-sided limits focus on behavior from a single direction."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Limits That Do Not Exist",
+        "chapter": 2,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "A limit does not exist if function values do not approach a single number. This can happen due to oscillation, infinite growth, or differing one-sided limits."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Limits That Do Not Exist",
+        "chapter": 2,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "The function sin(1/x) oscillates wildly as x approaches 0, so the limit does not exist."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Limits That Do Not Exist",
+        "chapter": 2,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "If values jump or oscillate without settling, expect the limit to fail."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Limits That Do Not Exist",
+        "chapter": 2,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Students often confuse large values with infinity; infinity describes behavior, not a number."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Limits That Do Not Exist",
+        "chapter": 2,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Limits fail when values do not approach a single real number."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Infinite Limits and Vertical Asymptotes",
+        "chapter": 2,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "An infinite limit occurs when function values grow without bound as x approaches a number. This behavior indicates a vertical asymptote, a vertical line the graph approaches but never reaches."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Infinite Limits and Vertical Asymptotes",
+        "chapter": 2,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "For f(x) = 1/(x − 2)², values increase without bound from both sides as x approaches 2, creating a vertical asymptote at x = 2."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Infinite Limits and Vertical Asymptotes",
+        "chapter": 2,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Check where denominators become zero to locate vertical asymptotes."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Infinite Limits and Vertical Asymptotes",
+        "chapter": 2,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Writing DNE instead of ±∞ hides important information about behavior."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Infinite Limits and Vertical Asymptotes",
+        "chapter": 2,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Infinite limits describe unbounded behavior and reveal vertical asymptotes."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "The Limit Laws",
+        "chapter": 2,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Limit laws allow limits to be computed algebraically. They state that limits respect addition, subtraction, multiplication, division (when valid), and powers."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "The Limit Laws",
+        "chapter": 2,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If lim x→a f(x) = 2 and lim x→a g(x) = 3, then lim x→a [f(x) + g(x)] = 5."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "The Limit Laws",
+        "chapter": 2,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Apply limit laws step by step to avoid mistakes."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "The Limit Laws",
+        "chapter": 2,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Using the quotient law when the denominator’s limit is zero is invalid."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "The Limit Laws",
+        "chapter": 2,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Limit laws simplify limit calculations using algebraic structure."
+    }
+]

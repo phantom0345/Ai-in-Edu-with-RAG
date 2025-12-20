@@ -1,0 +1,587 @@
+[
+    {
+        "topic": "derivatives",
+        "subtopic": "Constant Rule",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The constant rule states that the derivative of any constant function is zero. Intuitively, a constant function does not change as the input changes, so its rate of change is zero everywhere. Graphically, a constant function is a horizontal line, and the slope of a horizontal line is zero. This rule simplifies differentiation by immediately handling constant terms without limits. :contentReference[oaicite:0]{index=0}"
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Constant Rule",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If f(x) = 7, then f′(x) = 0 because the output never changes regardless of x."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Constant Rule",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Ask whether the function’s value changes at all—if not, the derivative is zero."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Constant Rule",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Students sometimes think constants disappear entirely, forgetting that only their derivatives are zero."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Constant Rule",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Constant functions have zero rate of change everywhere."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Power Rule",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The power rule provides a fast way to differentiate powers of x. It states that if a function is x raised to a power, the derivative is obtained by multiplying by the power and reducing the exponent by one. This rule replaces lengthy limit calculations and is foundational for polynomial differentiation."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Power Rule",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "For f(x) = x^3, the derivative is f′(x) = 3x^2."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Power Rule",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Lower the exponent by one after multiplying—do not forget this step."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Power Rule",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Leaving the exponent unchanged is a common algebra slip."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Power Rule",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Multiply by the exponent and subtract one from it."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Sum, Difference, and Constant Multiple Rules",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Derivatives distribute across addition, subtraction, and constant multiples. This means you can differentiate each term separately and then combine the results. These rules make it easy to handle polynomials and linear combinations of functions."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Sum, Difference, and Constant Multiple Rules",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If f(x) = 2x^3 − 5x + 4, then f′(x) = 6x^2 − 5."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Sum, Difference, and Constant Multiple Rules",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Differentiate term-by-term before simplifying."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Sum, Difference, and Constant Multiple Rules",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Forgetting to apply the constant multiple rule leads to missing coefficients."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Sum, Difference, and Constant Multiple Rules",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Linearity lets derivatives pass through sums and constants."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Product Rule",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The product rule is used when a function is formed by multiplying two functions. The derivative is not the product of derivatives. Instead, each function is differentiated once while the other is held fixed, and the results are added."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Product Rule",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "For f(x) = (x^2)(3x), the derivative is f′(x) = 2x·3x + x^2·3 = 9x^2."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Product Rule",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Label functions as ‘first’ and ‘second’ to keep terms organized."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Product Rule",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Differentiating both functions at the same time is incorrect."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Product Rule",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Differentiate one factor at a time and add the results."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Quotient Rule",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The quotient rule applies to ratios of functions. It accounts for how changes in both the numerator and denominator affect the overall rate of change. The denominator is squared to reflect its influence on the ratio."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Quotient Rule",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "For f(x) = x^2/(x+1), the derivative combines changes in both x^2 and x+1 using the quotient rule."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Quotient Rule",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Keep track of numerator minus denominator carefully."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Quotient Rule",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Forgetting to square the denominator is a frequent error."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Quotient Rule",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "The quotient rule handles how ratios change."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Average vs Instantaneous Rate of Change",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The average rate of change measures change over an interval, while the instantaneous rate of change measures change at a single point. The derivative captures this instantaneous rate, refining the idea of average change as the interval shrinks."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Average vs Instantaneous Rate of Change",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A car’s average speed over 10 seconds differs from its speed at exactly 5 seconds, which is given by the derivative."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Average vs Instantaneous Rate of Change",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Instantaneous means ‘right now,’ not ‘over time.’"
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Average vs Instantaneous Rate of Change",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Using average change when instantaneous change is required leads to inaccurate interpretations."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Average vs Instantaneous Rate of Change",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Derivatives give exact rates at specific moments."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivatives in Motion",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "In motion problems, position functions describe where an object is, velocity is the derivative of position, and acceleration is the derivative of velocity. These derivatives explain how motion evolves over time."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivatives in Motion",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If s(t) = t^2, then v(t) = 2t and a(t) = 2."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivatives in Motion",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Differentiate once for velocity, twice for acceleration."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivatives in Motion",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Mixing up position, velocity, and acceleration functions is common."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivatives in Motion",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Derivatives connect position, velocity, and acceleration."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Marginal Cost and Revenue",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "In economics, derivatives model marginal quantities. Marginal cost is the derivative of cost with respect to production, and marginal revenue is the derivative of revenue. These values approximate the change caused by producing or selling one more unit."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Marginal Cost and Revenue",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If C(x) is total cost, then C′(x) estimates the cost of producing one additional item."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Marginal Cost and Revenue",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Think of marginal values as ‘next unit’ effects."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Marginal Cost and Revenue",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Confusing total cost with marginal cost leads to misinterpretation."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Marginal Cost and Revenue",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Derivatives quantify incremental economic changes."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of Sine Function",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The derivative of the sine function describes how the sine curve changes at each point. As the input angle increases, sine rises and falls smoothly. The key result is that the rate of change of sin(x) at any point equals cos(x). This relationship is deeply connected to the unit circle, where sine and cosine track vertical and horizontal motion together. :contentReference[oaicite:0]{index=0}"
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of Sine Function",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If f(x) = sin(x), then f′(x) = cos(x). At x = 0, the derivative equals 1, meaning the sine curve is rising steeply there."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of Sine Function",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Remember: sine turns into cosine when differentiated."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of Sine Function",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Forgetting that angles must be in radians causes incorrect derivatives."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of Sine Function",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "The derivative of sin(x) is cos(x)."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of Cosine Function",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The derivative of cosine reflects how the cosine curve decreases and increases. Unlike sine, cosine initially decreases, which introduces a negative sign. The rate of change of cos(x) at any point is −sin(x), capturing this downward trend near x = 0."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of Cosine Function",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If f(x) = cos(x), then f′(x) = −sin(x). At x = 0, the slope is 0, meaning the curve is flat."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of Cosine Function",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Cosine becomes negative sine when differentiated."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of Cosine Function",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Missing the negative sign is a very common error."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of Cosine Function",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "The derivative of cos(x) is −sin(x)."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of Tangent Function",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The tangent function measures the ratio of sine to cosine, so its rate of change depends on how both vary. The derivative of tan(x) is sec²(x). This explains why tangent grows rapidly near vertical asymptotes where cosine approaches zero."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of Tangent Function",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If f(x) = tan(x), then f′(x) = sec²(x). At x = 0, the derivative equals 1."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of Tangent Function",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Think of tangent as changing faster when cosine is small."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of Tangent Function",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Writing sec(x) instead of sec²(x) is incorrect."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of Tangent Function",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "The derivative of tan(x) is sec²(x)."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivatives of Reciprocal Trigonometric Functions",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The reciprocal trigonometric functions—cosecant, secant, and cotangent—have derivatives that follow consistent sign and pairing patterns. Each derivative involves the product of the function and its corresponding non-reciprocal partner, reflecting their inverse relationships."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivatives of Reciprocal Trigonometric Functions",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "The derivative of sec(x) is sec(x)tan(x), while the derivative of csc(x) is −csc(x)cot(x)."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivatives of Reciprocal Trigonometric Functions",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Pair sec with tan and csc with cot when differentiating."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivatives of Reciprocal Trigonometric Functions",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Forgetting which derivatives include a negative sign causes errors."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivatives of Reciprocal Trigonometric Functions",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Reciprocal trig derivatives follow consistent pairing and sign rules."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Trigonometric Derivatives and Rates of Change",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Trigonometric derivatives are essential for modeling oscillatory motion, such as waves and circular movement. The derivative gives the instantaneous rate of change, which corresponds to velocity or slope at a given moment. These ideas are foundational in physics and engineering."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Trigonometric Derivatives and Rates of Change",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If position is given by s(t) = sin(t), then velocity is v(t) = cos(t), and acceleration is a(t) = −sin(t)."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Trigonometric Derivatives and Rates of Change",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Track how sine and cosine alternate when differentiating repeatedly."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Trigonometric Derivatives and Rates of Change",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Confusing position, velocity, and acceleration leads to incorrect interpretations."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Trigonometric Derivatives and Rates of Change",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Trigonometric derivatives model smooth, repeating rates of change."
+    }
+]

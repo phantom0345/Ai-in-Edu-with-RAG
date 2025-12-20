@@ -1,0 +1,227 @@
+[
+    {
+        "topic": "integration",
+        "subtopic": "Areas between Curves",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Finding the area between curves extends the idea of area under a single curve. Instead of measuring from the x-axis, we measure the vertical distance between two curves. At each x-value, the height of a thin rectangle is the top function minus the bottom function. Adding up these rectangle areas across an interval gives the total area between the curves."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Areas between Curves",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If one curve is y = x + 1 and another is y = x², the area between them on an interval is found by integrating (x + 1 − x²)."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Areas between Curves",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Always identify which curve is on top before setting up the integral."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Areas between Curves",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Subtracting in the wrong order can give a negative area."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Areas between Curves",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Area between curves is found by integrating top minus bottom."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Finding Intersection Points",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "To determine the limits of integration when finding area between curves, we often need to find where the curves intersect. These intersection points mark where one curve stops being above the other. Solving equations where the two functions are equal gives these boundary values."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Finding Intersection Points",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If y = x² and y = 2x intersect, setting x² = 2x gives x = 0 and x = 2 as limits."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Finding Intersection Points",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Sketching the graphs helps confirm intersection locations."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Finding Intersection Points",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Forgetting to check all solutions can miss parts of the region."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Finding Intersection Points",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Intersection points define the bounds of the area."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Integrating with Respect to y",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Sometimes it is easier to integrate horizontally instead of vertically. In this case, curves are written as functions of y, and the area is found by subtracting the left curve from the right curve. This approach often reduces the number of integrals needed."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Integrating with Respect to y",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If x = y² and x = 4 − y define a region, the area is found by integrating (4 − y − y²) with respect to y."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Integrating with Respect to y",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Choose the direction that gives simpler limits and expressions."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Integrating with Respect to y",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Mixing x-limits with y-integration causes errors."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Integrating with Respect to y",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Horizontal slicing can simplify area calculations."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Determining Volumes by Slicing",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The slicing method finds the volume of a solid by adding up the volumes of thin slices. Each slice has a small thickness and a known cross-sectional area. By integrating the area of these slices along an axis, we obtain the total volume."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Determining Volumes by Slicing",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If cross-sections perpendicular to the x-axis are squares with side length x, the volume is found by integrating x²."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Determining Volumes by Slicing",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "First identify the shape of each cross-section."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Determining Volumes by Slicing",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Using the wrong cross-sectional area formula leads to incorrect volumes."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Determining Volumes by Slicing",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Volume equals the integral of cross-sectional area."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Choosing the Direction of Slicing",
+        "chapter": 6,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The direction in which a solid is sliced affects the complexity of the integral. Slices can be taken perpendicular to the x-axis or y-axis. The best choice depends on which direction produces simpler cross-sections and expressions for area."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Choosing the Direction of Slicing",
+        "chapter": 6,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A solid with square cross-sections may be simpler when sliced vertically rather than horizontally."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Choosing the Direction of Slicing",
+        "chapter": 6,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Try both directions on a sketch before deciding."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Choosing the Direction of Slicing",
+        "chapter": 6,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Choosing a direction that complicates the cross-section makes the problem harder."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Choosing the Direction of Slicing",
+        "chapter": 6,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Good slicing choices simplify volume calculations."
+    }
+]

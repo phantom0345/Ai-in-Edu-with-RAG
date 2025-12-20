@@ -1,0 +1,317 @@
+[
+    {
+        "topic": "derivatives",
+        "subtopic": "Increasing and Decreasing Functions",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The first derivative tells us whether a function is increasing or decreasing. When the derivative is positive over an interval, the function rises as x increases. When the derivative is negative, the function falls. This connects algebra to graph shape: instead of plotting many points, we can understand behavior by checking the sign of the derivative."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Increasing and Decreasing Functions",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If f′(x) > 0 for all x between 1 and 3, then the graph of f slopes upward throughout that interval."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Increasing and Decreasing Functions",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Think of the derivative as the slope of the tangent line at each point."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Increasing and Decreasing Functions",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A zero derivative at a point does not automatically mean the function stops increasing or decreasing."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Increasing and Decreasing Functions",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "The sign of the first derivative controls whether a function rises or falls."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "First Derivative Test",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The first derivative test determines whether a critical point is a local maximum, local minimum, or neither. By checking how the sign of the derivative changes around the point, we can identify peaks and valleys without graphing the function."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "First Derivative Test",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If f′ changes from positive to negative at x = c, the function switches from increasing to decreasing, so there is a local maximum at c."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "First Derivative Test",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Use a sign chart to track the derivative on intervals around the critical point."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "First Derivative Test",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Not every critical point produces a maximum or minimum."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "First Derivative Test",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Changes in derivative sign reveal local extrema."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Concavity",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Concavity describes how a graph curves. A function is concave up when it bends like a cup, meaning slopes increase as x increases. It is concave down when it bends like an upside-down cup, meaning slopes decrease."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Concavity",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A parabola opening upward is concave up everywhere."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Concavity",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Look at whether slopes are getting steeper or flatter."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Concavity",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Concave up does not mean the function is increasing."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Concavity",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Concavity describes how slopes change, not their sign."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Second Derivative Test",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The second derivative test uses concavity to classify critical points. If the second derivative is positive at a critical point, the graph curves upward and the point is a local minimum. If it is negative, the graph curves downward and the point is a local maximum. If the second derivative is zero, the test gives no conclusion."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Second Derivative Test",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "At a critical point where f′(c)=0 and f″(c)>0, the graph forms a valley, indicating a local minimum."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Second Derivative Test",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Use the second derivative test only when the second derivative exists."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Second Derivative Test",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Assuming f″(c)=0 means no extremum is incorrect."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Second Derivative Test",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "The second derivative test links concavity to local extrema."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Limits at Infinity",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Limits at infinity describe how a function behaves as x becomes very large or very negative. Instead of focusing on specific points, we examine long-term trends in the graph."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Limits at Infinity",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "For f(x)=2+1/x, values get closer to 2 as x grows, so the limit at infinity is 2."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Limits at Infinity",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Focus on which terms dominate as x grows large."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Limits at Infinity",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Substituting infinity directly into formulas leads to errors."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Limits at Infinity",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Limits at infinity describe end behavior."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Horizontal Asymptotes",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "A horizontal asymptote is a line the graph approaches as x goes to infinity or negative infinity. The function may cross this line many times, but it gets closer and closer to it overall."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Horizontal Asymptotes",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "The function f(x)=1/x has a horizontal asymptote at y=0."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Horizontal Asymptotes",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Compare degrees of numerator and denominator for rational functions."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Horizontal Asymptotes",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Thinking a function cannot cross a horizontal asymptote is false."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Horizontal Asymptotes",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Horizontal asymptotes describe long-term leveling behavior."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Oblique Asymptotes",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "An oblique asymptote is a slanted line that a graph approaches as x becomes large in magnitude. This occurs when a rational function’s numerator degree is exactly one more than the denominator’s degree."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Oblique Asymptotes",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "For a rational function, polynomial division can reveal a linear function that the graph approaches."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Oblique Asymptotes",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Use long division to find the asymptote equation."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Oblique Asymptotes",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Confusing oblique asymptotes with tangent lines is common."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Oblique Asymptotes",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Oblique asymptotes describe slanted end behavior."
+    }
+]

@@ -1,0 +1,192 @@
+[
+    {
+        "topic": "functions",
+        "subtopic": "Areas between Curves | Determining Volumes By Slicing",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Consider the region bounded by y = x^2 and y = 2x. First determine the intersection points by solving x^2 = 2x, giving x = 0 and x = 2. On this interval, verify which curve is above by testing a point such as x = 1, where 2x > x^2. Set up the area as a single integral with respect to x: ∫ from 0 to 2 of (upper minus lower). Compute the integrand as 2x − x^2. Integrate term by term to obtain x^2 − x^3/3 evaluated from 0 to 2. Substituting the bounds gives the exact area. To extend this into a slicing-volume problem, imagine the same region forming the base of a solid whose cross-sections perpendicular to the x-axis are squares. The side length of each square equals the vertical distance between the curves, 2x − x^2. The cross-sectional area is therefore (2x − x^2)^2. Integrate this area from 0 to 2 to obtain the volume, carefully expanding before integrating."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Areas between Curves | Determining Volumes By Slicing",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Find the volume of a solid whose base is the region between y = sqrt(x) and y = x^2, with slices perpendicular to the x-axis that are right isosceles triangles. Begin by finding intersection points: solve sqrt(x) = x^2, yielding x = 0 and x = 1. On this interval, verify that sqrt(x) lies above x^2. The vertical distance between curves is sqrt(x) − x^2, which forms the leg of each triangular cross-section. For a right isosceles triangle with leg L, the area is L^2/2. Thus the cross-sectional area function is A(x) = (1/2)(sqrt(x) − x^2)^2. Expand the square before integrating to avoid algebraic errors. Integrate A(x) from 0 to 1 to compute the volume. The key procedural steps are identifying the correct geometric formula for the slice, expressing it entirely in terms of x, and performing careful algebra before integration."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Areas between Curves | Determining Volumes By Slicing",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "When a problem combines area between curves with slicing, separate the tasks mentally. First complete the two-dimensional analysis: find intersections and decide which curve is upper or lower on each interval. Only after the base region is fully understood should you introduce the cross-sectional geometry. Write the cross-sectional area as a function of the same variable used for integration. If the shape is unfamiliar, sketch a single slice and label its dimensions before forming the area formula."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Areas between Curves | Determining Volumes By Slicing",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "For piecewise regions where curves cross, expect the slicing integral to split as well. Even if the cross-sectional shape is constant, the defining dimension may change sign or expression when the upper and lower curves swap roles. Determine all intersection points first, then decide whether the cross-sectional formula must be redefined on subintervals. Treat each interval independently and sum the resulting integrals at the end."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Areas between Curves | Determining Volumes By Slicing",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A common mistake is to compute the area between curves correctly but then reuse that expression directly as the cross-sectional area without applying the geometric formula. For example, using the vertical distance between curves instead of squaring it for square cross-sections leads to a dimensionally incorrect integral. Always check that the integrand represents an area, not a length."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Areas between Curves | Determining Volumes By Slicing",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Another frequent error occurs when choosing the slicing direction. Students may integrate with respect to x even though the cross-sectional dimension is more naturally expressed in terms of y, leading to complicated or incorrect expressions. Before committing to an integral, verify that all slice dimensions can be written cleanly in the chosen variable. If not, reconsider the orientation of the slices."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Volumes of revolution:Cylindrical Shells | Arc length of a curve and surface area",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Consider the region bounded by y = ln x, y = 0, x = 1, and x = e, revolved about the y-axis. Use cylindrical shells. First identify the shell radius as x and the shell height as ln x. Set up the volume integral V = ∫[1,e] 2πx ln x dx. To evaluate, apply integration by parts with u = ln x and dv = x dx. Then du = (1/x) dx and v = x^2/2. Substituting gives V = 2π[(x^2/2)ln x − ∫(x^2/2)(1/x) dx] from 1 to e. Simplify the remaining integral to ∫(x/2) dx and integrate directly. After evaluating the antiderivative at the bounds, carefully note that ln 1 = 0 eliminates the lower-bound logarithmic term. The final result is a finite exact volume expressed in terms of π. This example emphasizes managing logarithmic heights and integration by parts within the shell method."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Volumes of revolution:Cylindrical Shells | Arc length of a curve and surface area",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "When deciding between shells and washers, sketch the axis of revolution first. If vertical slices lead to a single integral with a simple radius–height product, shells are often more efficient. For arc length or surface area problems, always simplify the expression under the square root before integrating; algebraic factoring can reduce the integrand to a basic power form that avoids numerical approximation."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Volumes of revolution:Cylindrical Shells | Arc length of a curve and surface area",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A common process-level error is confusing the shell radius with the function value when revolving around shifted axes. For example, rotating around x = c requires using the distance |x − c| as the radius, not x itself. In surface area problems, students often omit the square root factor √(1 + (f′(x))²), effectively computing lateral area of a cylinder rather than the true surface. Both mistakes arise from skipping geometric interpretation before writing the integral."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Physical Applications | Moments and center of mass | Integrals,Exponential Functions and logarithms",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A thin rod lies along the x-axis from x = 0 to x = 2 with linear density ρ(x) = e^x. To find the center of mass, first compute the total mass m = ∫_0^2 e^x dx. Evaluating gives m = e^2 − 1. Next compute the moment about the origin, M = ∫_0^2 x e^x dx. Apply integration by parts with u = x and dv = e^x dx, giving du = dx and v = e^x. Then M = x e^x |0^2 − ∫_0^2 e^x dx = 2e^2 − (e^2 − 1) = e^2 + 1. Finally, divide moment by mass: x̄ = M / m = (e^2 + 1) / (e^2 − 1). The procedure emphasizes computing mass and moment separately before forming the ratio, and shows how exponential integrals naturally arise in physical density models."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Physical Applications | Moments and center of mass | Integrals,Exponential Functions and logarithms",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Consider a lamina bounded by y = ln(x), y = 0, x = 1, and x = e, with constant density. To find the centroid, compute the mass m = ∫_1^e ln(x) dx. Using integration by parts, let u = ln(x), dv = dx, giving m = x ln(x) |1^e − ∫_1^e 1 dx = e − (e − 1) = 1. Next compute the moment about the y-axis: My = ∫_1^e x ln(x) dx. Apply integration by parts again with u = ln(x), dv = x dx, yielding My = (x^2/2) ln(x) |1^e − ∫_1^e x/2 dx = (e^2/2) − (e^2 − 1)/4. Then compute the moment about the x-axis: Mx = (1/2)∫_1^e [ln(x)]^2 dx. This integral is evaluated by repeated integration by parts. Finally, divide My and Mx by m to obtain x̄ and ȳ. The steps illustrate how logarithmic integrals enter centroid calculations."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Physical Applications | Moments and center of mass | Integrals,Exponential Functions and logarithms",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "When densities involve e^x or ln(x), separate the task into mass and moment calculations before worrying about the centroid formula. Write both integrals clearly, then decide whether integration by parts is required. For logarithmic regions, remember that moments about the x-axis often introduce squared logarithms, which may need two rounds of integration by parts. Keeping expressions symbolic as long as possible helps avoid algebraic mistakes."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Physical Applications | Moments and center of mass | Integrals,Exponential Functions and logarithms",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "In exponential density problems, check whether the density grows rapidly near one endpoint. This affects whether the center of mass shifts toward that end. After computing m and M symbolically, inspect the ratio M/m qualitatively before simplifying. This provides a consistency check and can reveal algebra errors, especially when exponentials dominate constants."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Physical Applications | Moments and center of mass | Integrals,Exponential Functions and logarithms",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A frequent mistake is canceling the density function too early. Students sometimes assume the density disappears in centroid formulas and omit it from both mass and moment integrals. This is only valid when density is constant. For exponential or logarithmic densities, dropping ρ(x) changes the physical meaning and leads to incorrect centers of mass."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Physical Applications | Moments and center of mass | Integrals,Exponential Functions and logarithms",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Another common error is misapplying integration by parts when computing moments like ∫ x e^x dx or ∫ [ln(x)]^2 dx. Choosing dv incorrectly or forgetting to evaluate boundary terms leads to missing exponential or logarithmic factors. Always write out u, dv, du, and v explicitly and verify units remain consistent with mass times distance."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "<Exponential Growth and decay|calculus of the hyperbolic functions>",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A population follows an exponential growth model y(t) = y0 e^{kt}. Suppose the rate constant k is unknown, but the population triples over a fixed time interval Δt. First, write the condition 3y0 = y0 e^{kΔt} and cancel y0 to isolate the exponential. Take natural logarithms to obtain ln 3 = kΔt, and solve for k. Next, define the instantaneous growth rate at time t by computing y′(t) using differentiation, which gives y′(t) = ky(t). Substitute the value of k derived earlier to express the rate purely in terms of y(t) and Δt. Finally, interpret the result: the derivative confirms that growth is proportional to the current population, and the proportionality constant is determined by the observed tripling behavior rather than an arbitrary parameter."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "<Exponential Growth and decay|calculus of the hyperbolic functions>",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Consider a hanging cable modeled by y = a cosh(x/a). To compute the slope and curvature at a nonzero point, first differentiate using the chain rule: y′ = sinh(x/a). Differentiate again to obtain y″ = (1/a) cosh(x/a). Evaluate both derivatives at a specified x-value to determine local behavior. Next, verify that the function satisfies the differential equation y″ = (1/a^2) y by substituting the original expression for y. This confirms the hyperbolic cosine as a solution. Finally, use the arc length formula by substituting y′ into √(1 + (y′)^2). Simplify using the identity 1 + sinh^2 u = cosh^2 u, reducing the integrand to cosh(x/a) and allowing direct integration."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "<Exponential Growth and decay|calculus of the hyperbolic functions>",
+        "chapter": 1,
+        "difficulty": "medium",
+        "layer": "procedural",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "When working with hyperbolic functions, rewrite expressions involving 1 + sinh^2 x or cosh^2 x early using identities. This often collapses complicated radicals into single hyperbolic functions, making integrals or arc length computations tractable. Always check whether substitution simplifies the algebra before expanding exponentials."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "<Exponential Growth and decay|calculus of the hyperbolic functions>",
+        "chapter": 1,
+        "difficulty": "hard",
+        "layer": "procedural",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A common error is treating hyperbolic functions exactly like trigonometric ones. For example, assuming (d/dx) cosh x = −sinh x leads to incorrect signs and faulty conclusions. Another frequent mistake is forgetting absolute value or domain restrictions when integrating expressions that yield inverse hyperbolic functions, which can result in invalid antiderivatives for the given interval."
+    }
+]

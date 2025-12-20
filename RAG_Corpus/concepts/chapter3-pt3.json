@@ -1,0 +1,587 @@
+[
+    {
+        "topic": "derivatives",
+        "subtopic": "The Chain Rule",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The chain rule explains how to differentiate a function made by composing two functions. Intuitively, changes happen in stages: as x changes, the inner function changes, which then affects the outer function. The total rate of change is the product of these stage-by-stage changes. This idea mirrors real processes where one quantity influences another in sequence. :contentReference[oaicite:0]{index=0}"
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "The Chain Rule",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "For h(x) = sin(x³), first note the inner function x³ and the outer function sin(u). The derivative is cos(x³)·3x²."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "The Chain Rule",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Work from the outside function inward, multiplying by each inner derivative."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "The Chain Rule",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Differentiating the outer and inner parts separately without multiplying leads to incorrect results."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "The Chain Rule",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "The chain rule multiplies rates of change for composed functions."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Chain Rule with Power Rule",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "When a function is a power of another function, the chain rule combines naturally with the power rule. You first apply the power rule to the outer power, then multiply by the derivative of the inner function. This avoids expanding expressions and keeps calculations efficient."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Chain Rule with Power Rule",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "For f(x) = (3x² + 1)⁴, the derivative is 4(3x² + 1)³·6x."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Chain Rule with Power Rule",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Do not expand the expression unless absolutely necessary."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Chain Rule with Power Rule",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Forgetting to multiply by the inner derivative is a frequent error."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Chain Rule with Power Rule",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Differentiate the outer power, then multiply by the inner derivative."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Chain Rule for Multiple Compositions",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "For functions composed of three or more layers, the chain rule is applied repeatedly. Each layer contributes a factor to the final derivative. Conceptually, you are tracking how change flows through a sequence of functions from x outward."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Chain Rule for Multiple Compositions",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "For y = cos⁴(7x² + 1), the derivative multiplies the derivatives of each layer: power, cosine, and quadratic."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Chain Rule for Multiple Compositions",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Identify layers clearly before differentiating."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Chain Rule for Multiple Compositions",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Skipping a layer causes missing factors in the derivative."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Chain Rule for Multiple Compositions",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Each nested function adds a factor via the chain rule."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of an Inverse Function",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The derivative of an inverse function is related to the derivative of the original function. At corresponding points, their slopes are reciprocals. This reflects the geometric idea that inverse functions reflect across the line y = x."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of an Inverse Function",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If f′(2) = 5 and f(2) = 3, then the derivative of f⁻¹ at x = 3 is 1/5."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of an Inverse Function",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Evaluate the original derivative at the inverse input."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of an Inverse Function",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Using f′(x) instead of f′(f⁻¹(x)) gives wrong values."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of an Inverse Function",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Inverse derivatives are reciprocals evaluated at corresponding points."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Inverse Function Theorem",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The inverse function theorem provides a formula for differentiating inverses without solving explicitly. It states that the derivative of an inverse equals the reciprocal of the original derivative evaluated at the inverse input, assuming the original derivative is nonzero."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Inverse Function Theorem",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "For g(x) = x³, the derivative of its inverse is (1/3)x⁻²ᐟ³."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Inverse Function Theorem",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "You often do not need to find the inverse explicitly."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Inverse Function Theorem",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Forgetting the nonzero-derivative condition invalidates the formula."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Inverse Function Theorem",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "The theorem links inverse derivatives to original derivatives."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivatives of Inverse Trigonometric Functions",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Inverse trigonometric functions have algebraic derivatives. These results come from applying the inverse function theorem together with trigonometric identities, revealing surprising connections between angles and algebraic expressions."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivatives of Inverse Trigonometric Functions",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "The derivative of sin⁻¹(x) is 1/√(1 − x²), while the derivative of tan⁻¹(x) is 1/(1 + x²)."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivatives of Inverse Trigonometric Functions",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Pay attention to domain restrictions when applying these formulas."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivatives of Inverse Trigonometric Functions",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Dropping absolute values in sec⁻¹ and csc⁻¹ derivatives leads to incorrect results."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivatives of Inverse Trigonometric Functions",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Inverse trig derivatives translate angle behavior into algebraic rates."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Implicit Differentiation",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Implicit differentiation is used when a relationship defines y indirectly instead of as an explicit function of x. Instead of solving for y, we differentiate both sides of the equation with respect to x, treating y as a function of x. Whenever a term contains y, its derivative includes y′ by the chain rule. This method is especially useful for curves that cannot be easily rewritten in the form y = f(x)."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Implicit Differentiation",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Given x² + y² = 25, differentiating both sides gives 2x + 2y·y′ = 0. Solving for y′ yields y′ = −x/y."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Implicit Differentiation",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Differentiate term-by-term and remember that y depends on x."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Implicit Differentiation",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Treating y as a constant instead of a function of x leads to missing y′ terms."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Implicit Differentiation",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Implicit differentiation handles equations where y is not isolated."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Implicit Differentiation with Products",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "When implicit equations include products of x and y, the product rule must be applied along with implicit differentiation. This means differentiating each factor carefully and including y′ whenever y is involved. These problems reinforce careful bookkeeping of terms."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Implicit Differentiation with Products",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "For xy + y = 6, differentiating gives x·y′ + y + y′ = 0. Solving yields y′ = −y/(x + 1)."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Implicit Differentiation with Products",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Apply the product rule before solving for y′."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Implicit Differentiation with Products",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Forgetting to differentiate both factors causes missing terms."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Implicit Differentiation with Products",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Products involving y require both the product rule and chain rule."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Implicit Differentiation for Tangent Slopes",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Implicit differentiation is often used to find the slope of a tangent line at a specific point on a curve. After computing y′ symbolically, the given point is substituted to find the numerical slope. This approach avoids solving for y explicitly."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Implicit Differentiation for Tangent Slopes",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "For x² + y² = 25 at the point (3, 4), y′ = −x/y gives a slope of −3/4."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Implicit Differentiation for Tangent Slopes",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Differentiate first, substitute the point second."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Implicit Differentiation for Tangent Slopes",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Substituting coordinates before differentiating prevents correct use of the chain rule."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Implicit Differentiation for Tangent Slopes",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Implicit differentiation is ideal for finding slopes on non-function curves."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of Exponential Functions",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Exponential functions grow or decay at rates proportional to their current value. The most important exponential function is e^x because its derivative is itself. This unique property makes it central to calculus and modeling real-world change."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of Exponential Functions",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If f(x) = e^x, then f′(x) = e^x for all x."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of Exponential Functions",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "e^x is the only function equal to its own derivative."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of Exponential Functions",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Assuming all exponentials behave like e^x is incorrect."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of Exponential Functions",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "The derivative of e^x is e^x."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of a^x",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "For exponential functions with base a (a > 0, a ≠ 1), the derivative includes a constant factor. The rate of change of a^x is proportional to a^x itself, scaled by ln(a). This connects all exponentials back to the natural exponential function."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of a^x",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If f(x) = 2^x, then f′(x) = 2^x ln(2)."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of a^x",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Rewrite a^x using e^(x ln a) if needed."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of a^x",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Omitting the ln(a) factor gives an incomplete derivative."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of a^x",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "The derivative of a^x is a^x ln(a)."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of Logarithmic Functions",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Logarithmic functions grow slowly and are the inverses of exponential functions. The natural logarithm has a particularly simple derivative, which plays a major role in calculus and applied problems."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of Logarithmic Functions",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If f(x) = ln(x), then f′(x) = 1/x for x > 0."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of Logarithmic Functions",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Logarithmic derivatives often simplify rational expressions."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of Logarithmic Functions",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Forgetting domain restrictions leads to invalid results."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative of Logarithmic Functions",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "The derivative of ln(x) is 1/x."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Chain Rule with Exponential and Logarithmic Functions",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Exponential and logarithmic functions often appear with inner functions. Differentiating them requires combining their standard derivatives with the chain rule. This allows efficient handling of complex growth and decay models."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Chain Rule with Exponential and Logarithmic Functions",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "For f(x) = e^(3x²), the derivative is f′(x) = e^(3x²)·6x."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Chain Rule with Exponential and Logarithmic Functions",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Differentiate the exponential or log first, then multiply by the inner derivative."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Chain Rule with Exponential and Logarithmic Functions",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Skipping the chain rule produces incomplete derivatives."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Chain Rule with Exponential and Logarithmic Functions",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Exponential and logarithmic derivatives often require the chain rule."
+    }
+]

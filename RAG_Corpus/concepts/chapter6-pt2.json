@@ -1,0 +1,272 @@
+[
+    {
+        "topic": "integration",
+        "subtopic": "Volumes of Revolution: Cylindrical Shells",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The method of cylindrical shells computes the volume of a solid of revolution by imagining the solid as being built from thin hollow cylinders. Each shell has a radius, a height, and a small thickness. Instead of slicing perpendicular to the axis of rotation (as in disks or washers), shells slice parallel to the axis. This method is often more convenient when revolving regions around the y-axis or when rewriting functions would be complicated."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Volumes of Revolution: Cylindrical Shells",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Revolving the region under y = f(x) from x = a to x = b around the y-axis forms shells whose radius is x and height is f(x). The volume is found by integrating the volume contributions of each shell."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Volumes of Revolution: Cylindrical Shells",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Think of peeling the solid into thin cylindrical layers."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Volumes of Revolution: Cylindrical Shells",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Confusing shell radius with shell height leads to incorrect setups."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Volumes of Revolution: Cylindrical Shells",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Shells add volume using radius, height, and thickness."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Choosing Shells vs Disks or Washers",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Choosing between shells and disks depends on how the region is described and the axis of rotation. Shells are usually better when the region is described naturally in terms of the variable parallel to the axis of rotation, or when disks would require splitting the region into multiple integrals."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Choosing Shells vs Disks or Washers",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A region defined by y as a function of x and rotated around the y-axis is often simpler with shells than washers."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Choosing Shells vs Disks or Washers",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Choose the method that gives the simplest integral."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Choosing Shells vs Disks or Washers",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Forcing one method when another is clearly simpler wastes time."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Choosing Shells vs Disks or Washers",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "The best method minimizes algebra and splitting."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Arc Length of a Curve",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Arc length measures the distance along a curve, similar to walking along a path. Because curves are not straight, we approximate their length using many small line segments. As these segments become shorter, their total length approaches the true length of the curve. Integration captures this limiting process."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Arc Length of a Curve",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "The length of a smooth curve from x = a to x = b is found by integrating a formula involving the slope of the curve."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Arc Length of a Curve",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Think of zooming in on the curve until it looks straight."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Arc Length of a Curve",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Applying arc length formulas to non-smooth curves is invalid."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Arc Length of a Curve",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Arc length adds up infinitesimal straight segments."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Arc Length for Functions of x",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "For curves written as y = f(x), arc length depends on how steep the curve is. Steeper slopes increase the distance traveled. The arc length formula accounts for both horizontal and vertical change by incorporating the derivative of the function."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Arc Length for Functions of x",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A curve with a rapidly changing slope over an interval will have a longer arc length than a flatter curve over the same interval."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Arc Length for Functions of x",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Large derivatives indicate longer arc length."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Arc Length for Functions of x",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Ignoring the derivative leads to underestimating length."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Arc Length for Functions of x",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Slope directly affects curve length."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Arc Length for Functions of y",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "When a curve is written as x = g(y), the arc length process is similar, but roles of x and y are reversed. This approach is useful when the curve fails the vertical line test or is easier to describe horizontally."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Arc Length for Functions of y",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A sideways parabola is often easier to measure using arc length with respect to y."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Arc Length for Functions of y",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Use this form when y-limits are simpler."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Arc Length for Functions of y",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Mixing x- and y-derivatives causes errors."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Arc Length for Functions of y",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Arc length works for sideways curves too."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Surface Area of a Surface of Revolution",
+        "chapter": 6,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Surface area of a surface of revolution measures the area of the outer skin formed when a curve is rotated about an axis. Small line segments on the curve sweep out thin bands when revolved. Adding the areas of these bands using integration gives the total surface area."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Surface Area of a Surface of Revolution",
+        "chapter": 6,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Revolving y = f(x) around the x-axis produces a surface whose area depends on both the function value and its slope."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Surface Area of a Surface of Revolution",
+        "chapter": 6,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Steeper curves generate more surface area."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Surface Area of a Surface of Revolution",
+        "chapter": 6,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Using volume formulas instead of surface formulas is a common error."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Surface Area of a Surface of Revolution",
+        "chapter": 6,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Surface area integrates rotated curve segments."
+    }
+]

@@ -1,0 +1,272 @@
+[
+    {
+        "topic": "derivatives",
+        "subtopic": "Defining the Derivative",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The derivative measures how a function changes at a specific point. Intuitively, it represents the slope of the tangent line to the graph at that point. Unlike a secant line, which connects two distinct points, the tangent line touches the curve at exactly one point and captures the instantaneous rate of change. The derivative is defined using a limit, allowing us to zoom in closer and closer until the secant line becomes the tangent line. :contentReference[oaicite:0]{index=0}"
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Defining the Derivative",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "For f(x) = x², the derivative at x = 3 represents the slope of the tangent line at that point. Using the definition, the slope turns out to be 6."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Defining the Derivative",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Think of the derivative as answering: “How fast is the output changing right now?”"
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Defining the Derivative",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Confusing the derivative with average change over an interval instead of instantaneous change is a common error."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Defining the Derivative",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "The derivative captures the instantaneous rate of change of a function at a point."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative as a Limit",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Formally, the derivative is defined as the limit of a difference quotient. This quotient compares how much the function changes relative to how much the input changes. As the input change shrinks toward zero, the quotient approaches the derivative."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative as a Limit",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "For f(x) = x², the difference quotient becomes ( (x+h)² − x² ) / h. Simplifying and taking the limit as h → 0 gives 2x."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative as a Limit",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Always simplify algebraically before applying the limit."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative as a Limit",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Plugging in h = 0 too early leads to division-by-zero errors."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative as a Limit",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "The derivative arises from taking the limit of a difference quotient."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Tangent Line Interpretation",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Geometrically, the derivative at a point equals the slope of the tangent line at that point. As secant lines approach the point of interest, their slopes approach the slope of the tangent line."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Tangent Line Interpretation",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "For f(x) = x at x = 1, the tangent line overlaps the graph, and the derivative is 1."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Tangent Line Interpretation",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "If the graph looks steeper, expect a larger derivative."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Tangent Line Interpretation",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Assuming every curve has a tangent everywhere ignores corners and cusps."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Tangent Line Interpretation",
+        "chapter": 3,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "The derivative represents the slope of the tangent line."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative as a Function",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Instead of finding the derivative at just one point, we can define a derivative function. This new function assigns to each x-value the slope of the tangent line at that point."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative as a Function",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If f(x) = x² − 2x, then the derivative function is f′(x) = 2x − 2."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative as a Function",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Think of f′(x) as a machine that outputs slopes."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative as a Function",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Mixing up f′(x) with f′(a) causes confusion between general and specific derivatives."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Derivative as a Function",
+        "chapter": 3,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "The derivative function gives the rate of change at every point."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Graphical Meaning of the Derivative",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The sign of the derivative tells whether a function is increasing or decreasing. Positive derivatives correspond to increasing intervals, negative derivatives to decreasing intervals, and zero derivatives to horizontal tangents."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Graphical Meaning of the Derivative",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If f′(x) = 0 at x = 1 and changes sign there, the original function has a horizontal tangent at x = 1."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Graphical Meaning of the Derivative",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Always relate the derivative graph back to slopes of the original function."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Graphical Meaning of the Derivative",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Assuming f′(x) = 0 means the function equals zero is incorrect."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Graphical Meaning of the Derivative",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Derivative graphs encode slope information of the original function."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Differentiability and Continuity",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "If a function is differentiable at a point, it must be continuous there. However, continuity alone does not guarantee differentiability. Corners, cusps, and vertical tangents break differentiability."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Differentiability and Continuity",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "The function f(x) = |x| is continuous at x = 0 but not differentiable there because left and right slopes differ."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Differentiability and Continuity",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Look for sharp corners or vertical tangents when testing differentiability."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Differentiability and Continuity",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Assuming smooth-looking graphs are always differentiable can be misleading."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Differentiability and Continuity",
+        "chapter": 3,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Differentiability implies continuity, but not the reverse."
+    }
+]

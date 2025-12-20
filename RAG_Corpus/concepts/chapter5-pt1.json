@@ -1,0 +1,227 @@
+[
+    {
+        "topic": "integration",
+        "subtopic": "Approximating Areas",
+        "chapter": 5,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Approximating area is the starting point of integration. The idea is to estimate the area under a curve by breaking it into simple shapes whose areas we already know, usually rectangles. By adding the areas of many thin rectangles, we get an estimate of the total area under the curve. As the rectangles become thinner, the approximation improves. This idea mirrors how curved regions can be closely filled using many small straight-edged pieces."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Approximating Areas",
+        "chapter": 5,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "To estimate the area under y = x² from x = 0 to x = 2, divide the interval into equal subintervals and form rectangles whose heights are determined by the function values."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Approximating Areas",
+        "chapter": 5,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Smaller rectangles usually give better approximations."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Approximating Areas",
+        "chapter": 5,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Using too few rectangles can give a poor estimate."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Approximating Areas",
+        "chapter": 5,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Area can be estimated by summing areas of rectangles."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Left-Endpoint Approximation",
+        "chapter": 5,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "In a left-endpoint approximation, the height of each rectangle is determined by the function value at the left end of each subinterval. This method may underestimate or overestimate the true area depending on whether the function is increasing or decreasing over the interval."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Left-Endpoint Approximation",
+        "chapter": 5,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "For an increasing function, left-endpoint rectangles lie below the curve, giving an underestimate of the area."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Left-Endpoint Approximation",
+        "chapter": 5,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Sketching the rectangles helps predict over- or underestimation."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Left-Endpoint Approximation",
+        "chapter": 5,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Assuming left-endpoint always underestimates is incorrect."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Left-Endpoint Approximation",
+        "chapter": 5,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Heights come from left endpoints of subintervals."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Right-Endpoint Approximation",
+        "chapter": 5,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "In a right-endpoint approximation, rectangle heights are determined using the function value at the right end of each subinterval. Like the left-endpoint method, this can overestimate or underestimate depending on the function’s behavior."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Right-Endpoint Approximation",
+        "chapter": 5,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "For an increasing function, right-endpoint rectangles typically lie above the curve."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Right-Endpoint Approximation",
+        "chapter": 5,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Compare with left-endpoint results to bracket the true area."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Right-Endpoint Approximation",
+        "chapter": 5,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Mixing left and right endpoints within one sum causes inconsistency."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Right-Endpoint Approximation",
+        "chapter": 5,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Heights come from right endpoints of subintervals."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Riemann Sums",
+        "chapter": 5,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "A Riemann sum generalizes area approximation by allowing the rectangle height to be chosen at any point within each subinterval. By increasing the number of subintervals and shrinking their width, Riemann sums approach the exact area under the curve."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Riemann Sums",
+        "chapter": 5,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Choosing midpoints instead of endpoints often improves accuracy when approximating area."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Riemann Sums",
+        "chapter": 5,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "More subintervals means better precision."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Riemann Sums",
+        "chapter": 5,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Forgetting the rectangle width leads to wrong area estimates."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Riemann Sums",
+        "chapter": 5,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Riemann sums unify all rectangle-based approximations."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "The Definite Integral",
+        "chapter": 5,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The definite integral represents the exact area under a curve on a closed interval. It is defined as the limit of Riemann sums as the number of subintervals approaches infinity. Unlike an indefinite integral, a definite integral produces a number, not a function."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "The Definite Integral",
+        "chapter": 5,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "The definite integral from 0 to 2 of x² gives the exact area under the curve y = x² between those x-values."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "The Definite Integral",
+        "chapter": 5,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Think of a definite integral as a limit of area approximations."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "The Definite Integral",
+        "chapter": 5,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Confusing definite integrals with antiderivatives is common."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "The Definite Integral",
+        "chapter": 5,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "A definite integral gives exact accumulated area."
+    }
+]

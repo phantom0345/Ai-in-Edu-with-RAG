@@ -1,0 +1,362 @@
+[
+    {
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "A function describes a rule that assigns exactly one output to each input. You can think of it like a machine: you put in a value, and the function produces a single result. The set of all possible inputs is called the domain, and the set of resulting outputs is called the range. Functions are used to model relationships, such as how distance depends on time or how cost depends on quantity. The key idea is uniqueness: no input is allowed to have two different outputs. This property distinguishes functions from general relations. :contentReference[oaicite:0]{index=0}"
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Suppose a function takes a number and squares it. If the input is 3, the output is 9. If the input is −2, the output is 4. Each input gives one clear result. The domain here is all real numbers, because any real number can be squared. The range is all nonnegative numbers, because squaring never produces a negative output."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "When checking if something is a function, ask: does any input repeat with a different output? If yes, it is not a function."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A common mistake is thinking that different inputs cannot share the same output. This is allowed. The rule only forbids one input from having multiple outputs."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "A function assigns one output to each input. The domain lists inputs, and the range lists outputs. Uniqueness of outputs for each input is the defining rule."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Functions can be represented in multiple ways: formulas, tables, and graphs. A table lists specific input-output pairs, a formula gives a general rule, and a graph shows all pairs visually. These representations describe the same idea from different angles. Understanding how to move between them is essential, because calculus problems often switch representations depending on what is easiest to analyze."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A temperature table might list time as the input and temperature as the output. Plotting these points creates a graph that shows how temperature changes during the day. Even though the table has only certain times, the graph helps visualize the overall trend."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "When moving from a formula to a graph, start by making a small table of values. This helps reveal shape and key features."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Students often assume a graph is continuous just because points are connected. A table-based function may not define values between listed inputs."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Functions can be shown as formulas, tables, or graphs. Each form highlights different information but represents the same relationship."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The vertical line test determines whether a graph represents a function. If any vertical line intersects the graph more than once, a single input would have multiple outputs, violating the definition of a function. This test is especially useful when dealing with curves or unfamiliar graphs."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A circle fails the vertical line test because some vertical lines cut the circle at two points. A straight line or parabola passes the test, since each vertical line intersects once at most."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Imagine sliding a vertical ruler across the graph. If it ever hits the graph twice at once, it is not a function."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A frequent error is using a horizontal line test instead. Horizontal lines are used for inverse functions, not for identifying functions."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "The vertical line test checks whether each input has only one output. Passing the test confirms the graph represents a function."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Basic classes of functions include linear, polynomial, rational, and root functions. Each class has a characteristic shape and behavior. Learning these basic forms helps you recognize graphs quickly and predict how functions behave without detailed calculations."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A linear function produces a straight line. If the slope is positive, the line rises from left to right. If the slope is negative, the line falls."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Look at the formula: the highest power of the variable often hints at the function’s class."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Do not confuse linear functions with general polynomials. Linear functions have degree one only."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Basic function classes have standard shapes. Recognizing them simplifies graphing and interpretation."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Polynomial functions are built from powers of the variable with nonnegative integer exponents. The highest power determines the degree and strongly influences the graph’s shape. Even-degree polynomials tend to open in the same direction on both ends, while odd-degree polynomials go in opposite directions."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A quadratic polynomial creates a parabola. If the leading coefficient is positive, the parabola opens upward; if negative, it opens downward."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Check the leading term to predict end behavior before sketching."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Students often ignore degree and focus only on coefficients, missing the overall shape."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Polynomial degree controls graph shape and end behavior, making it a key feature."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Rational functions are ratios of polynomials. They may have breaks in their graphs where the denominator is zero. These restrictions shape the domain and create characteristic features like vertical asymptotes."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "For a function with denominator x − 2, the input x = 2 is excluded. The graph shows a gap or vertical behavior near this value."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Always find where the denominator equals zero before graphing."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A common error is canceling terms and forgetting that original domain restrictions still apply."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "chapter": 1,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Rational functions involve division and have restricted domains, often leading to gaps or asymptotic behavior."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "A linear function models a constant rate of change. Its graph is always a straight line. The key feature is slope, which tells how much the output changes when the input increases by one unit. A positive slope means the function increases, a negative slope means it decreases, and zero slope means the output stays constant."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If a line rises 2 units for every 1 unit you move to the right, its slope is 2. This means increasing the input by 1 increases the output by 2."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Think of slope as ‘rise over run’: vertical change compared to horizontal change."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Students often confuse slope with the y-intercept. The slope controls steepness, not where the line crosses the axis."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Linear functions change at a constant rate, represented by slope, and always form straight lines."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Even and odd polynomial functions have predictable symmetry. Even functions are symmetric about the y-axis, meaning the left and right sides mirror each other. Odd functions are symmetric about the origin, meaning rotating the graph 180 degrees leaves it unchanged. Symmetry helps sketch graphs quickly and check algebraic work."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A function involving only even powers of x, such as x² or x⁴, is even. A function involving only odd powers, such as x³, is odd."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Substitute −x into the function and compare the result with the original function to test symmetry."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Mixing even and odd powers usually destroys symmetry, but students often assume symmetry still exists."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Even functions mirror across the y-axis, odd functions rotate around the origin, and symmetry simplifies graphing."
+    }
+]

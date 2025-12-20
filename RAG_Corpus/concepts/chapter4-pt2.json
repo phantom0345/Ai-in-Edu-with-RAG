@@ -1,0 +1,272 @@
+[
+    {
+        "topic": "derivatives",
+        "subtopic": "Absolute Maximum and Minimum",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "An absolute maximum is the largest value a function takes on an interval, and an absolute minimum is the smallest value it takes. These are global comparisons: the function’s value at that point is compared with all other values in the interval. Absolute extrema may occur at interior points or at the endpoints of an interval. Importantly, a function might have one, both, or neither absolute extrema depending on its domain and behavior. :contentReference[oaicite:0]{index=0}"
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Absolute Maximum and Minimum",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "For f(x)=x²+1 over all real numbers, the smallest value is 1 at x=0, so this is the absolute minimum. There is no absolute maximum because values grow without bound."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Absolute Maximum and Minimum",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Always check endpoints when the interval is closed."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Absolute Maximum and Minimum",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Confusing absolute extrema with absolute value is a common misunderstanding."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Absolute Maximum and Minimum",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Absolute extrema compare function values over an entire interval."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Local Maximum and Minimum",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "A local maximum or minimum occurs when a function’s value is larger or smaller than nearby values, but not necessarily the largest or smallest overall. Local extrema describe behavior in a neighborhood around a point rather than across the entire domain."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Local Maximum and Minimum",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A hill on a hiking trail represents a local maximum even if a taller mountain exists elsewhere."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Local Maximum and Minimum",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Local comparisons only involve nearby x-values."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Local Maximum and Minimum",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Assuming every local extremum is also absolute is incorrect."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Local Maximum and Minimum",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Local extrema describe nearby peaks and valleys."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Critical Points",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Critical points are interior points where the derivative is zero or does not exist. These points are important because local maxima and minima can only occur at critical points or endpoints. However, not every critical point corresponds to an extremum."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Critical Points",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "For f(x)=x³, the derivative is zero at x=0, making it a critical point, but the function has no local maximum or minimum there."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Critical Points",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Critical points are candidates, not guarantees, for extrema."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Critical Points",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Ignoring points where the derivative is undefined misses possible extrema."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Critical Points",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Critical points help locate where extrema may occur."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Extreme Value Theorem",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The Extreme Value Theorem states that a function continuous on a closed, bounded interval must have both an absolute maximum and an absolute minimum on that interval. This theorem guarantees existence but does not tell where the extrema occur."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Extreme Value Theorem",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A continuous curve drawn on a closed interval must reach a highest and lowest point somewhere on that interval."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Extreme Value Theorem",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Continuity and a closed interval are essential."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Extreme Value Theorem",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Applying the theorem to open intervals is invalid."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Extreme Value Theorem",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Continuity on a closed interval guarantees absolute extrema."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Mean Value Theorem",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The Mean Value Theorem (MVT) states that for a function continuous on a closed interval and differentiable on the open interval, there is at least one point where the instantaneous rate of change equals the average rate of change over the interval."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Mean Value Theorem",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If you drive with an average speed of 60 km/h over a trip, the MVT guarantees there was a moment when your speed was exactly 60 km/h."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Mean Value Theorem",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Think of matching a tangent slope to a secant slope."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Mean Value Theorem",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Forgetting to check continuity and differentiability invalidates the theorem."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Mean Value Theorem",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "MVT links average and instantaneous change."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Rolle’s Theorem",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Rolle’s Theorem is a special case of the Mean Value Theorem where the function’s values at the endpoints are equal. It guarantees at least one interior point where the derivative is zero."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Rolle’s Theorem",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "For a smooth hill that starts and ends at the same height, there must be a flat point somewhere in between."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Rolle’s Theorem",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Equal endpoint values are the key condition."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Rolle’s Theorem",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Applying Rolle’s Theorem to non-differentiable functions leads to false conclusions."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Rolle’s Theorem",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Rolle’s Theorem guarantees a zero slope under strict conditions."
+    }
+]

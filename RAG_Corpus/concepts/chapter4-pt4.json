@@ -1,0 +1,272 @@
+[
+    {
+        "topic": "derivatives",
+        "subtopic": "Applied Optimization Problems",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Applied optimization problems focus on finding maximum or minimum values of real-world quantities, such as area, volume, cost, or time. The key idea is that the quantity of interest depends on one variable, but that variable is constrained by physical or practical conditions. Calculus helps by identifying where a function reaches its highest or lowest value, typically at critical points or endpoints."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Applied Optimization Problems",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Maximizing the area of a rectangular garden with a fixed amount of fencing requires expressing area in terms of one variable and finding where that area is largest."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Applied Optimization Problems",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Identify what is being optimized before writing any equations."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Applied Optimization Problems",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Optimizing the wrong quantity, such as perimeter instead of area, leads to incorrect results."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Applied Optimization Problems",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Optimization problems seek extreme values under constraints."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Optimization Strategy",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "A standard strategy for solving optimization problems includes defining variables, writing a constraint equation, reducing the objective function to one variable, identifying the domain, and then using derivatives to locate extrema. This structured process reduces confusion and ensures all conditions are respected."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Optimization Strategy",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "In maximizing the volume of an open-top box made from cardboard, the constraint comes from the fixed sheet size, while volume becomes a function of the cut size."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Optimization Strategy",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Reduce everything to a single-variable function before differentiating."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Optimization Strategy",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Skipping the domain analysis can include impossible solutions."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Optimization Strategy",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Optimization follows a repeatable, step-by-step process."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Optimization on Open or Unbounded Intervals",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Some optimization problems involve domains that are not closed or bounded. Even in these cases, absolute extrema may still exist if the function grows without bound near the edges of the domain. Analyzing end behavior helps determine whether a minimum or maximum must occur at a critical point."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Optimization on Open or Unbounded Intervals",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "An open-top box with fixed volume but variable base size has minimum surface area even though the domain extends to infinity."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Optimization on Open or Unbounded Intervals",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Check how the function behaves as the variable approaches extreme values."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Optimization on Open or Unbounded Intervals",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Assuming no extrema exist just because the interval is open is incorrect."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Optimization on Open or Unbounded Intervals",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Unbounded domains can still produce optimal solutions."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "L’Hôpital’s Rule",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "L’Hôpital’s Rule is a technique for evaluating limits that result in indeterminate forms like 0/0 or ∞/∞. Instead of analyzing the original functions, the rule allows us to evaluate the limit of the ratio of their derivatives, provided certain conditions are met."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "L’Hôpital’s Rule",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "The limit of (sin x)/x as x approaches 0 can be evaluated using L’Hôpital’s Rule by differentiating numerator and denominator."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "L’Hôpital’s Rule",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "First verify that the limit produces 0/0 or ∞/∞."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "L’Hôpital’s Rule",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Applying L’Hôpital’s Rule when the limit is determinate gives wrong answers."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "L’Hôpital’s Rule",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "L’Hôpital’s Rule resolves specific indeterminate limits."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Indeterminate Forms",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Indeterminate forms occur when limits cannot be evaluated directly, such as 0·∞ or ∞−∞. These forms require algebraic manipulation to rewrite them into quotients suitable for L’Hôpital’s Rule."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Indeterminate Forms",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "The limit of x ln x as x approaches 0 from the right is rewritten as (ln x)/(1/x) before applying L’Hôpital’s Rule."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Indeterminate Forms",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Rewrite products or differences as fractions."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Indeterminate Forms",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Failing to transform the expression prevents use of the rule."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Indeterminate Forms",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Many indeterminate forms can be converted to 0/0 or ∞/∞."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Relative Growth Rates",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Relative growth rates compare how fast functions increase as x becomes large. L’Hôpital’s Rule helps show that exponential functions grow faster than polynomials, and logarithmic functions grow slower than both. These comparisons are important in applied modeling."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Relative Growth Rates",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Using limits, we can show that ln x grows more slowly than x as x approaches infinity."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Relative Growth Rates",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Compare functions by forming a ratio and evaluating its limit."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Relative Growth Rates",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Assuming higher powers always dominate without checking limits is unreliable."
+    },
+    {
+        "topic": "limits",
+        "subtopic": "Relative Growth Rates",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Limits reveal long-term growth dominance among functions."
+    }
+]

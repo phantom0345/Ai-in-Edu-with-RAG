@@ -1,0 +1,272 @@
+[
+    {
+        "topic": "functions",
+        "subtopic": "Exponential Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "An exponential function has the variable in the exponent and a constant base. Its general form is f(x) = b^x, where b is a positive number not equal to 1. These functions model situations where growth or decay happens by a constant percentage over equal time intervals, such as population growth or radioactive decay. The key idea is that the rate of change depends on the current value, not a fixed amount. :contentReference[oaicite:0]{index=0}"
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Exponential Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If a population doubles every year, the population after x years can be modeled by f(x) = 2^x. After 3 years, the population is 2^3 = 8 times the original size."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Exponential Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "If the variable appears in the exponent instead of as a power of x, you are likely dealing with an exponential function."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Exponential Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A common mistake is confusing b^x with x^b. Only b^x represents exponential growth or decay."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Exponential Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Exponential functions model constant percentage change and grow or decay rapidly compared to power functions."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Graphs of Exponential Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The graph of an exponential function depends on the base. If the base is greater than 1, the function increases; if the base is between 0 and 1, it decreases. In both cases, the graph approaches but never crosses the x-axis, making y = 0 a horizontal asymptote. The domain is all real numbers, and the range is all positive numbers."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Graphs of Exponential Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "The function f(x) = 2^x increases rapidly as x increases, while f(x) = (1/2)^x decreases and approaches zero as x increases."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Graphs of Exponential Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Check whether the base is larger or smaller than 1 to predict whether the graph rises or falls."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Graphs of Exponential Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Students sometimes assume exponential graphs cross the x-axis. They never do because outputs are always positive."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Graphs of Exponential Functions",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Exponential graphs are always above the x-axis and show either rapid growth or decay depending on the base."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The Number e",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The number e is a special irrational number approximately equal to 2.718. It arises naturally when studying continuous growth, such as continuously compounded interest. The exponential function e^x has a unique property: its rate of change at any point is equal to its value at that point, making it central to calculus."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The Number e",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If money is compounded continuously at rate r, the amount after t years is given by A(t) = Pe^(rt), where P is the initial investment."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The Number e",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Whenever you see continuous growth or decay, expect the base e to appear."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The Number e",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Treating e as just another variable instead of a constant leads to algebraic errors."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "The Number e",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "The number e is fundamental for modeling continuous change and plays a key role in calculus."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Logarithmic Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "A logarithmic function is the inverse of an exponential function. It answers the question: what exponent produces a given value? Logarithms are useful for working with very large or very small numbers, such as sound intensity or acidity levels."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Logarithmic Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "log_2(8) = 3 because 2^3 = 8. The logarithm gives the exponent."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Logarithmic Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Rewrite logarithmic statements in exponential form to understand them better."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Logarithmic Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "A common error is assuming logarithms are defined for zero or negative inputs."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Logarithmic Functions",
+        "chapter": 1,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Logarithmic functions reverse exponential growth and are defined only for positive inputs."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Natural Logarithm",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The natural logarithm, written as ln(x), is the logarithm with base e. It is the inverse of the natural exponential function e^x. Natural logarithms appear frequently in calculus because they simplify differentiation and integration involving exponential functions."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Natural Logarithm",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "ln(e^3) = 3 and e^(ln 5) = 5, showing that ln(x) and e^x undo each other."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Natural Logarithm",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Whenever bases involve e, switch to natural logarithms to simplify expressions."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Natural Logarithm",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Confusing ln(x) with log base 10 is a frequent source of calculator errors."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "Natural Logarithm",
+        "chapter": 1,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "The natural logarithm pairs naturally with e^x and is central to calculus techniques."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "A Preview of Calculus",
+        "chapter": 1,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Exponential and logarithmic functions provide a gateway to calculus because they model change in a smooth, predictable way. Calculus studies how functions change and accumulate, and these functions have special properties that make them easier to analyze using derivatives and integrals."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "A Preview of Calculus",
+        "chapter": 1,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "The function e^x is unique because its rate of change is exactly equal to its value, a property that becomes clear when derivatives are introduced."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "A Preview of Calculus",
+        "chapter": 1,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Focus on how outputs respond to small input changes—this intuition prepares you for derivatives."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "A Preview of Calculus",
+        "chapter": 1,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Thinking of calculus as disconnected from functions makes later concepts harder to grasp."
+    },
+    {
+        "topic": "functions",
+        "subtopic": "A Preview of Calculus",
+        "chapter": 1,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Exponential and logarithmic functions introduce ideas of continuous change that form the foundation of calculus."
+    }
+]

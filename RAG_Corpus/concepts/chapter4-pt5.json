@@ -1,0 +1,227 @@
+[
+    {
+        "topic": "derivatives",
+        "subtopic": "Newton’s Method",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Newton’s method is an iterative technique used to approximate solutions of equations of the form f(x)=0. The key idea is geometric: starting from an initial guess, we draw the tangent line to the graph of f at that point and use where this tangent crosses the x-axis as a better approximation. Repeating this process often leads quickly to an accurate root."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Newton’s Method",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "To approximate √2, we solve f(x)=x²−2=0. Starting with x₀=2, each tangent-line step produces better estimates that rapidly approach 1.414."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Newton’s Method",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Choose an initial guess close to the expected root for faster convergence."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Newton’s Method",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Starting far from the root can cause divergence or convergence to the wrong solution."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Newton’s Method",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Newton’s method refines guesses using tangent lines."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Iterative Nature of Newton’s Method",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Newton’s method is an example of an iterative process, where each approximation is computed from the previous one using the same formula. This repeated application explains why calculators can efficiently approximate roots."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Iterative Nature of Newton’s Method",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Using xₙ₊₁ = xₙ − f(xₙ)/f′(xₙ), each new value depends only on the last estimate."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Iterative Nature of Newton’s Method",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Watch how quickly values stabilize to judge convergence."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Iterative Nature of Newton’s Method",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Assuming every iterative process converges is incorrect."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Iterative Nature of Newton’s Method",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Newton’s method repeatedly improves approximations."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Failures of Newton’s Method",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Newton’s method can fail if the derivative is zero, if the tangent lines lead away from the root, or if approximations oscillate. Understanding these failures helps explain why good initial guesses matter."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Failures of Newton’s Method",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "For some functions, approximations bounce between two values instead of converging to a root."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Failures of Newton’s Method",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Check whether f′ becomes zero near your guesses."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Failures of Newton’s Method",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Blindly iterating without checking behavior can waste computation."
+    },
+    {
+        "topic": "derivatives",
+        "subtopic": "Failures of Newton’s Method",
+        "chapter": 4,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Newton’s method is powerful but not foolproof."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Antiderivatives",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "An antiderivative of a function f is another function whose derivative is f. Antiderivatives reverse the process of differentiation and are the foundation of integration."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Antiderivatives",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Since the derivative of x² is 2x, an antiderivative of 2x is x²."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Antiderivatives",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Think: what function differentiates to give the integrand?"
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Antiderivatives",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Forgetting the constant of integration loses generality."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Antiderivatives",
+        "chapter": 4,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Antiderivatives undo differentiation."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Indefinite Integrals",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Indefinite integrals represent the family of all antiderivatives of a function. They are written using integral notation and include an arbitrary constant to capture all possible solutions."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Indefinite Integrals",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "∫2x dx = x² + C represents all functions whose derivative is 2x."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Indefinite Integrals",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Differentiate your result to check correctness."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Indefinite Integrals",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Omitting +C gives only one antiderivative, not all."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Indefinite Integrals",
+        "chapter": 4,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Indefinite integrals describe families of antiderivatives."
+    }
+]

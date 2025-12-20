@@ -1,0 +1,272 @@
+[
+    {
+        "topic": "integration",
+        "subtopic": "Physical Applications of Integration",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Physical applications of integration use definite integrals to compute real-world quantities that accumulate continuously. Instead of summing discrete pieces, integration adds infinitely many tiny contributions. Common applications include mass from density, work done by a variable force, and fluid pressure. The unifying idea is accumulation: small pieces are modeled, summed, and then refined through limits to obtain exact results."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Physical Applications of Integration",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "To find the mass of a rod with varying density, we integrate the density function over the rod’s length."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Physical Applications of Integration",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Ask: what small quantity is being added repeatedly?"
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Physical Applications of Integration",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Using formulas without identifying the correct small element leads to wrong integrals."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Physical Applications of Integration",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Integration models continuous accumulation in physical systems."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Mass from Linear Density",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "When an object has varying density along its length, mass cannot be found by simple multiplication. Instead, we use a linear density function that describes mass per unit length. Each small segment contributes a tiny amount of mass, and integrating the density over the object’s length gives the total mass."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Mass from Linear Density",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A rod with density sin(x) over an interval has mass equal to the integral of sin(x) across that interval."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Mass from Linear Density",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Density multiplied by a small length gives a small mass."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Mass from Linear Density",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Treating variable density as constant produces incorrect results."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Mass from Linear Density",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Mass equals the integral of linear density."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Work Done by a Variable Force",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "Work measures the energy required to move an object. When force varies with position, work is found by integrating the force over the distance traveled. Each small displacement contributes a tiny amount of work, and the total work is their sum."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Work Done by a Variable Force",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Stretching a spring requires more force as it stretches further, so total work is found by integrating the force function."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Work Done by a Variable Force",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Work is force times distance, summed continuously."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Work Done by a Variable Force",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Using constant-force formulas for variable forces is incorrect."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Work Done by a Variable Force",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Variable force work is found using integration."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Moments",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "A moment measures how mass is distributed relative to a reference point or axis. Intuitively, it captures the tendency of mass to cause rotation. In one dimension, a moment is found by multiplying mass by its distance from the reference point."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Moments",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "Two equal masses placed at equal distances on opposite sides of the origin produce moments that cancel."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Moments",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Think of a seesaw balancing about a pivot."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Moments",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Ignoring sign (left vs right of origin) gives wrong moments."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Moments",
+        "chapter": 6,
+        "difficulty": "easy",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Moments quantify mass distribution about a point."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Center of Mass on a Line",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "The center of mass is the balance point of a system. For objects along a line, it is found by dividing the total moment by the total mass. This point represents where the entire mass could be concentrated without changing the system’s balance."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Center of Mass on a Line",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "If heavier masses are farther from the origin, the center of mass shifts toward them."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Center of Mass on a Line",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Heavier masses pull the balance point closer."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Center of Mass on a Line",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Averaging positions without weights is incorrect."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Center of Mass on a Line",
+        "chapter": 6,
+        "difficulty": "medium",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Center of mass equals moment divided by total mass."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Center of Mass of a Lamina",
+        "chapter": 6,
+        "difficulty": "hard",
+        "content_type": "explanation",
+        "source": "OpenStax",
+        "content": "For thin plates with uniform density, the center of mass depends only on shape. Integration is used to compute moments about both axes, and dividing these moments by total mass gives the coordinates of the centroid."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Center of Mass of a Lamina",
+        "chapter": 6,
+        "difficulty": "hard",
+        "content_type": "example",
+        "source": "OpenStax",
+        "content": "A triangular lamina balances at a point closer to its wider base than its tip."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Center of Mass of a Lamina",
+        "chapter": 6,
+        "difficulty": "hard",
+        "content_type": "hint",
+        "source": "OpenStax",
+        "content": "Use symmetry whenever possible to simplify calculations."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Center of Mass of a Lamina",
+        "chapter": 6,
+        "difficulty": "hard",
+        "content_type": "mistake",
+        "source": "OpenStax",
+        "content": "Forgetting to divide moments by total mass gives incorrect coordinates."
+    },
+    {
+        "topic": "integration",
+        "subtopic": "Center of Mass of a Lamina",
+        "chapter": 6,
+        "difficulty": "hard",
+        "content_type": "summary",
+        "source": "OpenStax",
+        "content": "Centroids are found from moments and total mass."
+    }
+]
