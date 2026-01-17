@@ -1,0 +1,203 @@
+{
+  "test_user": {
+    "name": "Test User",
+    "grade": "High School",
+    "subject": "Calculus",
+    "accuracy": 0.2,
+    "avg_time": 0.0,
+    "total_attempts": 0,
+    "confidence": 0.6,
+    "topic_mastery": {
+      "Derivatives": 0.1,
+      "Integrals": 0.9,
+      "Limits": 0.1,
+      "Applications": 0.1
+    },
+    "difficulty_level": "Easy",
+    "history": []
+  },
+  "me": {
+    "name": "me",
+    "grade": "High School",
+    "subject": "Calculus",
+    "accuracy": 0.2,
+    "avg_time": 0.0,
+    "total_attempts": 0,
+    "confidence": 0.6,
+    "topic_mastery": {
+      "Derivatives": 0.1,
+      "Integrals": 0.5,
+      "Limits": 0.1,
+      "Applications": 0.3666666666666667
+    },
+    "difficulty_level": "Easy",
+    "history": []
+  },
+  "verifyuser": {
+    "name": "VerifyUser",
+    "grade": "High School",
+    "subject": "Calculus",
+    "accuracy": 0.5,
+    "avg_time": 0.0,
+    "total_attempts": 0,
+    "confidence": 0.5,
+    "topic_mastery": {},
+    "difficulty_level": "Medium",
+    "history": []
+  },
+  "finaluser": {
+    "name": "FinalUser",
+    "grade": "High School",
+    "subject": "CalculusMath",
+    "accuracy": 1.0,
+    "avg_time": 0.2952399253845215,
+    "total_attempts": 1,
+    "confidence": 0.6,
+    "topic_mastery": {
+      "Derivatives": 0.1,
+      "Integrals": 0.9,
+      "Limits": 0.1,
+      "Applications": 0.1
+    },
+    "difficulty_level": "Easy",
+    "history": []
+  },
+  "verificationuser2": {
+    "name": "VerificationUser2",
+    "grade": "High School",
+    "subject": "Math",
+    "accuracy": 1.0,
+    "avg_time": 0.21962857246398926,
+    "total_attempts": 1,
+    "confidence": 0.6,
+    "topic_mastery": {
+      "Derivatives": 0.5,
+      "Integrals": 0.9,
+      "Limits": 0.1,
+      "Applications": 0.1
+    },
+    "difficulty_level": "Medium",
+    "history": []
+  },
+  "fixuser2": {
+    "name": "FixUser2",
+    "grade": "High School",
+    "subject": "Math",
+    "accuracy": 1.0,
+    "avg_time": 0.9014682769775391,
+    "total_attempts": 1,
+    "confidence": 0.6,
+    "topic_mastery": {
+      "Derivatives": 0.9,
+      "Integrals": 0.9,
+      "Limits": 0.9,
+      "Applications": 0.9
+    },
+    "difficulty_level": "Hard",
+    "history": []
+  },
+  "mw": {
+    "name": "mw",
+    "grade": "High School",
+    "subject": "Calculus",
+    "accuracy": 1.0,
+    "avg_time": 0.16884716351826987,
+    "total_attempts": 3,
+    "confidence": 0.6,
+    "topic_mastery": {
+      "Derivatives": 0.1,
+      "Integrals": 0.9,
+      "Limits": 0.1,
+      "Applications": 0.1
+    },
+    "difficulty_level": "Easy",
+    "history": []
+  },
+  "hi": {
+    "name": "hi",
+    "grade": "High School",
+    "subject": "Calculus",
+    "accuracy": 1.0,
+    "avg_time": 0.4988018274307251,
+    "total_attempts": 2,
+    "confidence": 0.6,
+    "topic_mastery": {
+      "Derivatives": 0.1,
+      "Integrals": 0.5,
+      "Limits": 0.1,
+      "Applications": 0.3666666666666667
+    },
+    "difficulty_level": "Easy",
+    "history": []
+  },
+  "no": {
+    "name": "no",
+    "grade": "High School",
+    "subject": "Calculus",
+    "accuracy": 0.4,
+    "avg_time": 0.0,
+    "total_attempts": 0,
+    "confidence": 0.6,
+    "topic_mastery": {
+      "Derivatives": 0.1,
+      "Integrals": 0.9,
+      "Limits": 0.1,
+      "Applications": 0.6333333333333333
+    },
+    "difficulty_level": "Medium",
+    "history": []
+  },
+  "yash": {
+    "name": "yash",
+    "grade": "High School",
+    "subject": "Calculus",
+    "accuracy": 0.8666666666666667,
+    "avg_time": 3.826849023501078,
+    "total_attempts": 6,
+    "confidence": 0.6,
+    "topic_mastery": {
+      "Derivatives": 0.1,
+      "Integrals": 0.5,
+      "Limits": 0.1,
+      "Applications": 0.3666666666666667
+    },
+    "difficulty_level": "Hard",
+    "history": []
+  },
+  "you": {
+    "name": "you",
+    "grade": "High School",
+    "subject": "Calculus",
+    "accuracy": 1.0,
+    "avg_time": 0.20690059661865234,
+    "total_attempts": 2,
+    "confidence": 0.5,
+    "topic_mastery": {},
+    "difficulty_level": "Medium",
+    "history": []
+  },
+  "gemini": {
+    "name": "gemini",
+    "grade": "High School",
+    "subject": "Calculus",
+    "accuracy": 1.0,
+    "avg_time": 1.981429100036621,
+    "total_attempts": 1,
+    "confidence": 0.5,
+    "topic_mastery": {},
+    "difficulty_level": "Medium",
+    "history": []
+  },
+  "gem": {
+    "name": "gem",
+    "grade": "High School",
+    "subject": "Calculus",
+    "accuracy": 1.0,
+    "avg_time": 0.5780448913574219,
+    "total_attempts": 1,
+    "confidence": 0.5,
+    "topic_mastery": {},
+    "difficulty_level": "Medium",
+    "history": []
+  }
+}

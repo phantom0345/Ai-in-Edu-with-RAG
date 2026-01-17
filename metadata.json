@@ -1,0 +1,5 @@
+{
+  "name": "ClassMate AI",
+  "description": "An adaptive AI tutor platform using Gemini for personalized learning paths, real-time feedback, and progress tracking.",
+  "requestFramePermissions": []
+}

@@ -9,9 +9,11 @@ transformers
 accelerate
 sentence-transformers
 faiss-cpu
-chromadb>=0.4.0
+
 streamlit
 fastapi
 uvicorn
 datasets
 pydantic-settings
+python-dotenv
+httpx
