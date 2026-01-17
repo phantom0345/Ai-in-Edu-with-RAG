@@ -55,7 +55,7 @@ export const generateQuiz = async (topic: string, subtopic: string, num_question
             body: JSON.stringify({ topic, subtopic, num_questions, difficulty })
         });
         const data = await res.json();
-        return data.quiz;
+        return data; // Return full object with quiz and rag_sources
     } catch (e) {
         console.error("Quiz generation failed", e);
         throw e;

@@ -1,0 +1,626 @@
+{
+  "Functions and Graphs|Review of Functions|Medium": {
+    "quiz": [
+      {
+        "id": 1,
+        "question": "What is the primary purpose of f\u2032(x) in graph analysis?",
+        "options": [
+          "A) To determine intervals where f(x) is increasing or decreasing",
+          "B) To find the x-intercepts and y-intercept of f(x)",
+          "C) To identify regions where f(x) has a maximum or minimum value",
+          "D) To encode slope information rather than height"
+        ],
+        "correctAnswer": "D) To encode slope information rather than height",
+        "explanation": "f\u2032(x) represents the derivative of f(x), which encodes slope information."
+      },
+      {
+        "id": 2,
+        "question": "What type of polynomial functions tend to open in the same direction on both ends?",
+        "options": [
+          "A) Odd-degree polynomials",
+          "B) Even-degree polynomials",
+          "C) Linear polynomials",
+          "D) Rational polynomials"
+        ],
+        "correctAnswer": "B) Even-degree polynomials",
+        "explanation": "Even-degree polynomials have a higher power of x that is even, resulting in the same direction on both ends."
+      },
+      {
+        "id": 3,
+        "question": "What happens to the graph of f(x) if it hits the y-axis twice at once?",
+        "options": [
+          "A) It becomes a rational function",
+          "B) It remains a polynomial function",
+          "C) It is not a function",
+          "D) It has a sharp corner or vertical tangent"
+        ],
+        "correctAnswer": "C) It is not a function",
+        "explanation": "If the graph hits the y-axis twice at once, it fails the vertical line test and is not a function."
+      },
+      {
+        "id": 4,
+        "question": "What is the effect of the coefficient -2 in the function h(x) = \u22122(x \u2212 1)\u00b2 + 3?",
+        "options": [
+          "A) Shifts the graph right by 1",
+          "B) Reflects the graph across the x-axis and applies a vertical stretch by factor 2",
+          "C) Shifts the graph upward by 3",
+          "D) Changes the direction of the parabola"
+        ],
+        "correctAnswer": "B) Reflects the graph across the x-axis and applies a vertical stretch by factor 2",
+        "explanation": "The coefficient -2 reflects the graph across the x-axis and applies a vertical stretch."
+      },
+      {
+        "id": 5,
+        "question": "What is the parent function of h(x) = \u22122(x \u2212 1)\u00b2 + 3?",
+        "options": [
+          "A) y = x",
+          "B) y = -x",
+          "C) y = x^2",
+          "D) y = -x^2"
+        ],
+        "correctAnswer": "D) y = -x^2",
+        "explanation": "The parent function is the simplest form of a polynomial, which in this case is y = x^2."
+      }
+    ],
+    "rag_sources": [
+      {
+        "id": "calc_000801",
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "content": null,
+        "content_type": "video",
+        "score": 0.6917120218276978,
+        "source": "YouTube"
+      },
+      {
+        "id": "calc_000802",
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "content": null,
+        "content_type": "video",
+        "score": 0.5864042043685913,
+        "source": "YouTube"
+      },
+      {
+        "id": "calc_000711",
+        "topic": "functions",
+        "subtopic": "The derivative as a function",
+        "content": "Given the graph of a function f, determine intervals where f\u2032(x)>0, f\u2032(x)<0, and f\u2032(x)=0. Identify regions where f is increasing; on these intervals the derivative is positive. Where f is decreasing, the derivative is negative. Points where the tangent is horizontal correspond to f\u2032(x)=0. Sharp corners or vertical tangents indicate points where the derivative does not exist. Interpretation: the graph of f\u2032 encodes slope information rather than height.",
+        "content_type": "example",
+        "score": 0.5544907450675964,
+        "source": "OpenStax"
+      },
+      {
+        "id": "calc_000677",
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "content": "Identify function classes from their algebraic form first. Determine domain restrictions before attempting graph-related conclusions.",
+        "content_type": "hint",
+        "score": 0.5487502813339233,
+        "source": "OpenStax"
+      },
+      {
+        "id": "calc_000021",
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "content": "Polynomial functions are built from powers of the variable with nonnegative integer exponents. The highest power determines the degree and strongly influences the graph\u2019s shape. Even-degree polynomials tend to open in the same direction on both ends, while odd-degree polynomials go in opposite directions.",
+        "content_type": "explanation",
+        "score": 0.5157574415206909,
+        "source": "OpenStax"
+      },
+      {
+        "id": "calc_000016",
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "content": "Basic classes of functions include linear, polynomial, rational, and root functions. Each class has a characteristic shape and behavior. Learning these basic forms helps you recognize graphs quickly and predict how functions behave without detailed calculations.",
+        "content_type": "explanation",
+        "score": 0.5141725540161133,
+        "source": "OpenStax"
+      },
+      {
+        "id": "calc_000010",
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "content": "Functions can be shown as formulas, tables, or graphs. Each form highlights different information but represents the same relationship.",
+        "content_type": "summary",
+        "score": 0.5036511421203613,
+        "source": "OpenStax"
+      },
+      {
+        "id": "calc_000805",
+        "topic": "functions",
+        "subtopic": "Exponential and Logarithmic Functions",
+        "content": null,
+        "content_type": "video",
+        "score": 0.49887022376060486,
+        "source": "YouTube"
+      },
+      {
+        "id": "calc_000013",
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "content": "Imagine sliding a vertical ruler across the graph. If it ever hits the graph twice at once, it is not a function.",
+        "content_type": "hint",
+        "score": 0.4959225058555603,
+        "source": "OpenStax"
+      },
+      {
+        "id": "calc_000667",
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "content": "Given h(x) = \u22122(x \u2212 1)\u00b2 + 3, identify the parent function and describe the transformations. Start from the parent y = x\u00b2. The term (x \u2212 1) shifts the graph right by 1. The coefficient \u22122 reflects the graph across the x-axis and applies a vertical stretch by factor 2. The +3 shifts the graph upward by 3. Interpretation: the vertex is at (1, 3) and the parabola opens downward, steeper than y = x\u00b2.",
+        "content_type": "example",
+        "score": 0.4956999719142914,
+        "source": "OpenStax"
+      }
+    ]
+  },
+  "Chapter 1: Functions and Graphs|Review of Functions|Medium": {
+    "quiz": [
+      {
+        "id": 1,
+        "question": "When analyzing a function, what should be done first?",
+        "options": [
+          "A) Determine intervals where f\u2032(x)>0, f\u2032(x)<0, and f\u2032(x)=0.",
+          "B) Identify the domain restrictions and determine if the graph is continuous.",
+          "C) Look for sharp corners or vertical tangents to see where the derivative does not exist.",
+          "D) Find the highest power of the variable with nonnegative integer exponents."
+        ],
+        "correctAnswer": "B) Identify the domain restrictions and determine if the graph is continuous.",
+        "explanation": "Before attempting graph-related conclusions, identify function classes from their algebraic form first. Determine domain restrictions."
+      },
+      {
+        "id": 2,
+        "question": "What does a horizontal tangent on a function's graph represent?",
+        "options": [
+          "A) A sharp corner or vertical tangent.",
+          "B) A point where the derivative is positive.",
+          "C) A point where f\u2032(x)=0, indicating a horizontal tangent.",
+          "D) An interval where the function is increasing."
+        ],
+        "correctAnswer": "C) A point where f\u2032(x)=0, indicating a horizontal tangent.",
+        "explanation": "Points where the tangent is horizontal correspond to f\u2032(x)=0."
+      },
+      {
+        "id": 3,
+        "question": "What type of functions are built from powers of the variable with nonnegative integer exponents?",
+        "options": [
+          "A) Rational and root functions.",
+          "B) Polynomial functions.",
+          "C) Linear and polynomial functions.",
+          "D) Even-degree and odd-degree polynomials."
+        ],
+        "correctAnswer": "B) Polynomial functions.",
+        "explanation": "Polynomial functions are built from powers of the variable with nonnegative integer exponents."
+      },
+      {
+        "id": 4,
+        "question": "How many ways can a function be represented?",
+        "options": [
+          "A) Two",
+          "B) Three: formulas, tables, and graphs.",
+          "C) One: only as a graph.",
+          "D) Four: formulas, tables, graphs, and equations."
+        ],
+        "correctAnswer": "B) Three: formulas, tables, and graphs.",
+        "explanation": "Functions can be represented in multiple ways: formulas, tables, and graphs."
+      },
+      {
+        "id": 5,
+        "question": "What is essential for calculus problems?",
+        "options": [
+          "A) Understanding only one representation.",
+          "B) Knowing how to move between different representations.",
+          "C) Solving equations by hand.",
+          "D) Using a calculator for every problem."
+        ],
+        "correctAnswer": "B) Knowing how to move between different representations.",
+        "explanation": "Understanding how to move between representations is essential, because calculus problems often switch representations depending on what is easiest to analyze."
+      }
+    ],
+    "rag_sources": [
+      {
+        "id": "calc_000801",
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "content": null,
+        "content_type": "video",
+        "score": 0.6557679176330566,
+        "source": "YouTube"
+      },
+      {
+        "id": "calc_000802",
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "content": null,
+        "content_type": "video",
+        "score": 0.5949738621711731,
+        "source": "YouTube"
+      },
+      {
+        "id": "calc_000677",
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "content": "Identify function classes from their algebraic form first. Determine domain restrictions before attempting graph-related conclusions.",
+        "content_type": "hint",
+        "score": 0.5399004817008972,
+        "source": "OpenStax"
+      },
+      {
+        "id": "calc_000711",
+        "topic": "functions",
+        "subtopic": "The derivative as a function",
+        "content": "Given the graph of a function f, determine intervals where f\u2032(x)>0, f\u2032(x)<0, and f\u2032(x)=0. Identify regions where f is increasing; on these intervals the derivative is positive. Where f is decreasing, the derivative is negative. Points where the tangent is horizontal correspond to f\u2032(x)=0. Sharp corners or vertical tangents indicate points where the derivative does not exist. Interpretation: the graph of f\u2032 encodes slope information rather than height.",
+        "content_type": "example",
+        "score": 0.5309864282608032,
+        "source": "OpenStax"
+      },
+      {
+        "id": "calc_000009",
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "content": "Students often assume a graph is continuous just because points are connected. A table-based function may not define values between listed inputs.",
+        "content_type": "mistake",
+        "score": 0.4923616349697113,
+        "source": "OpenStax"
+      },
+      {
+        "id": "calc_000016",
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "content": "Basic classes of functions include linear, polynomial, rational, and root functions. Each class has a characteristic shape and behavior. Learning these basic forms helps you recognize graphs quickly and predict how functions behave without detailed calculations.",
+        "content_type": "explanation",
+        "score": 0.49223098158836365,
+        "source": "OpenStax"
+      },
+      {
+        "id": "calc_000805",
+        "topic": "functions",
+        "subtopic": "Exponential and Logarithmic Functions",
+        "content": null,
+        "content_type": "video",
+        "score": 0.49138981103897095,
+        "source": "YouTube"
+      },
+      {
+        "id": "calc_000021",
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "content": "Polynomial functions are built from powers of the variable with nonnegative integer exponents. The highest power determines the degree and strongly influences the graph\u2019s shape. Even-degree polynomials tend to open in the same direction on both ends, while odd-degree polynomials go in opposite directions.",
+        "content_type": "explanation",
+        "score": 0.4876070022583008,
+        "source": "OpenStax"
+      },
+      {
+        "id": "calc_000006",
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "content": "Functions can be represented in multiple ways: formulas, tables, and graphs. A table lists specific input-output pairs, a formula gives a general rule, and a graph shows all pairs visually. These representations describe the same idea from different angles. Understanding how to move between them is essential, because calculus problems often switch representations depending on what is easiest to analyze.",
+        "content_type": "explanation",
+        "score": 0.47578004002571106,
+        "source": "OpenStax"
+      },
+      {
+        "id": "calc_000010",
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "content": "Functions can be shown as formulas, tables, or graphs. Each form highlights different information but represents the same relationship.",
+        "content_type": "summary",
+        "score": 0.4755737781524658,
+        "source": "OpenStax"
+      }
+    ]
+  },
+  "Chapter 1: Functions and Graphs|Review of Functions|Hard": {
+    "quiz": [
+      {
+        "id": 1,
+        "question": "What type of function has a characteristic shape and behavior influenced by its degree?",
+        "options": [
+          "A) Linear",
+          "B) Polynomial",
+          "C) Rational",
+          "D) Root"
+        ],
+        "correctAnswer": "B) Polynomial",
+        "explanation": "Polynomial functions are built from powers of the variable with nonnegative integer exponents, and the highest power determines the degree, which strongly influences the graph's shape."
+      },
+      {
+        "id": 2,
+        "question": "Which representation of a function highlights different information but represents the same relationship?",
+        "options": [
+          "A) Formula",
+          "B) Table",
+          "C) Graph",
+          "D) All of the above"
+        ],
+        "correctAnswer": "D) All of the above",
+        "explanation": "Functions can be shown as formulas, tables, or graphs, and each form highlights different information but represents the same relationship."
+      },
+      {
+        "id": 3,
+        "question": "What does a sharp corner on a function graph indicate?",
+        "options": [
+          "A) A point of inflection",
+          "B) A horizontal tangent",
+          "C) The derivative does not exist at that point",
+          "D) A maximum or minimum value"
+        ],
+        "correctAnswer": "C) The derivative does not exist at that point",
+        "explanation": "Sharp corners on a function graph indicate points where the derivative does not exist."
+      },
+      {
+        "id": 4,
+        "question": "What is the significance of f\u2032(x)=0 on a graph?",
+        "options": [
+          "A) The function is increasing at that point",
+          "B) The function is decreasing at that point",
+          "C) The tangent line to the curve is horizontal",
+          "D) The function has a maximum or minimum value"
+        ],
+        "correctAnswer": "C) The tangent line to the curve is horizontal",
+        "explanation": "Points where f\u2032(x)=0 correspond to points where the tangent line to the curve is horizontal."
+      },
+      {
+        "id": 5,
+        "question": "What should you consider before attempting graph-related conclusions about a function?",
+        "options": [
+          "A) Domain restrictions",
+          "B) The function's degree",
+          "C) The function's type",
+          "D) All of the above"
+        ],
+        "correctAnswer": "A) Domain restrictions",
+        "explanation": "You should identify domain restrictions before attempting graph-related conclusions about a function."
+      }
+    ],
+    "rag_sources": [
+      {
+        "id": "calc_000801",
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "content": null,
+        "content_type": "video",
+        "score": 0.6557679176330566,
+        "source": "YouTube"
+      },
+      {
+        "id": "calc_000802",
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "content": null,
+        "content_type": "video",
+        "score": 0.5949738621711731,
+        "source": "YouTube"
+      },
+      {
+        "id": "calc_000677",
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "content": "Identify function classes from their algebraic form first. Determine domain restrictions before attempting graph-related conclusions.",
+        "content_type": "hint",
+        "score": 0.5399004817008972,
+        "source": "OpenStax"
+      },
+      {
+        "id": "calc_000711",
+        "topic": "functions",
+        "subtopic": "The derivative as a function",
+        "content": "Given the graph of a function f, determine intervals where f\u2032(x)>0, f\u2032(x)<0, and f\u2032(x)=0. Identify regions where f is increasing; on these intervals the derivative is positive. Where f is decreasing, the derivative is negative. Points where the tangent is horizontal correspond to f\u2032(x)=0. Sharp corners or vertical tangents indicate points where the derivative does not exist. Interpretation: the graph of f\u2032 encodes slope information rather than height.",
+        "content_type": "example",
+        "score": 0.5309864282608032,
+        "source": "OpenStax"
+      },
+      {
+        "id": "calc_000009",
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "content": "Students often assume a graph is continuous just because points are connected. A table-based function may not define values between listed inputs.",
+        "content_type": "mistake",
+        "score": 0.4923616349697113,
+        "source": "OpenStax"
+      },
+      {
+        "id": "calc_000016",
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "content": "Basic classes of functions include linear, polynomial, rational, and root functions. Each class has a characteristic shape and behavior. Learning these basic forms helps you recognize graphs quickly and predict how functions behave without detailed calculations.",
+        "content_type": "explanation",
+        "score": 0.49223098158836365,
+        "source": "OpenStax"
+      },
+      {
+        "id": "calc_000805",
+        "topic": "functions",
+        "subtopic": "Exponential and Logarithmic Functions",
+        "content": null,
+        "content_type": "video",
+        "score": 0.49138981103897095,
+        "source": "YouTube"
+      },
+      {
+        "id": "calc_000021",
+        "topic": "functions",
+        "subtopic": "Basic Classes of Functions",
+        "content": "Polynomial functions are built from powers of the variable with nonnegative integer exponents. The highest power determines the degree and strongly influences the graph\u2019s shape. Even-degree polynomials tend to open in the same direction on both ends, while odd-degree polynomials go in opposite directions.",
+        "content_type": "explanation",
+        "score": 0.4876070022583008,
+        "source": "OpenStax"
+      },
+      {
+        "id": "calc_000006",
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "content": "Functions can be represented in multiple ways: formulas, tables, and graphs. A table lists specific input-output pairs, a formula gives a general rule, and a graph shows all pairs visually. These representations describe the same idea from different angles. Understanding how to move between them is essential, because calculus problems often switch representations depending on what is easiest to analyze.",
+        "content_type": "explanation",
+        "score": 0.47578004002571106,
+        "source": "OpenStax"
+      },
+      {
+        "id": "calc_000010",
+        "topic": "functions",
+        "subtopic": "Review of Functions",
+        "content": "Functions can be shown as formulas, tables, or graphs. Each form highlights different information but represents the same relationship.",
+        "content_type": "summary",
+        "score": 0.4755737781524658,
+        "source": "OpenStax"
+      }
+    ]
+  },
+  "Chapter 2: Limits|A Preview of Calculus|Hard": {
+    "quiz": [
+      {
+        "id": 1,
+        "question": "What is a key concept in L'H\u00f4pital's Rule?",
+        "options": [
+          "A) Indeterminate limits can be resolved using algebraic manipulation",
+          "B) Differentiating the numerator and denominator of the function can resolve specific indeterminate forms",
+          "C) The limit laws are used to simplify the calculation of limits",
+          "D) The limit as x approaches a is always defined"
+        ],
+        "correctAnswer": "B) Differentiating the numerator and denominator of the function can resolve specific indeterminate forms",
+        "explanation": "L'H\u00f4pital's Rule resolves specific indeterminate limits by differentiating the numerator and denominator."
+      },
+      {
+        "id": 2,
+        "question": "How do limit laws simplify limit calculations?",
+        "options": [
+          "A) By using algebraic manipulation to resolve indeterminate forms",
+          "B) Using the properties of limits, such as the sum rule and product rule, to break down complex functions into simpler ones",
+          "C) By differentiating the numerator and denominator of the function",
+          "D) By integrating the function"
+        ],
+        "correctAnswer": "B) Using the properties of limits, such as the sum rule and product rule, to break down complex functions into simpler ones",
+        "explanation": "Limit laws simplify limit calculations by using algebraic structure."
+      },
+      {
+        "id": 3,
+        "question": "How is the limit of (sin x)/x as x approaches 0 evaluated?",
+        "options": [
+          "A) Using algebraic manipulation to resolve indeterminate forms",
+          "B) By differentiating the numerator and denominator of the function",
+          "C) By integrating the function",
+          "D) It is not possible to evaluate this limit"
+        ],
+        "correctAnswer": "B) By differentiating the numerator and denominator of the function",
+        "explanation": "The limit of (sin x)/x as x approaches 0 can be evaluated using L'H\u00f4pital's Rule by differentiating numerator and denominator."
+      },
+      {
+        "id": 4,
+        "question": "What is the result of lim x\u2192a [f(x) + g(x)] given that lim x\u2192a f(x) = 2 and lim x\u2192a g(x) = 3?",
+        "options": [
+          "A) 1",
+          "B) 5",
+          "C) It does not exist",
+          "D) The limit depends on the function"
+        ],
+        "correctAnswer": "B) 5",
+        "explanation": "If lim x\u2192a f(x) = 2 and lim x\u2192a g(x) = 3, then lim x\u2192a [f(x) + g(x)] = 5."
+      },
+      {
+        "id": 5,
+        "question": "What is the main focus when evaluating limits?",
+        "options": [
+          "A) The value of the function at the specific number",
+          "B) The behavior of the function near that point, without needing to actually reach it",
+          "C) How accumulation changes as the lower limit moves",
+          "D) It depends on the type of function"
+        ],
+        "correctAnswer": "B) The behavior of the function near that point, without needing to actually reach it",
+        "explanation": "The limit of a function describes what value the function outputs get close to as the input gets close to a specific number. The input does not need to actually reach that number."
+      }
+    ],
+    "rag_sources": [
+      {
+        "id": "calc_000807",
+        "topic": "limits",
+        "subtopic": "The Limit of a Function",
+        "content": null,
+        "content_type": "video",
+        "score": 0.7712962031364441,
+        "source": "YouTube"
+      },
+      {
+        "id": "calc_000128",
+        "topic": "limits",
+        "subtopic": "The Limit Laws",
+        "content": "Apply limit laws step by step to avoid mistakes.",
+        "content_type": "hint",
+        "score": 0.668961763381958,
+        "source": "OpenStax"
+      },
+      {
+        "id": "calc_000809",
+        "topic": "limits",
+        "subtopic": "Continuity",
+        "content": null,
+        "content_type": "video",
+        "score": 0.6555827260017395,
+        "source": "YouTube"
+      },
+      {
+        "id": "calc_000808",
+        "topic": "limits",
+        "subtopic": "The Limit Laws",
+        "content": null,
+        "content_type": "video",
+        "score": 0.5954763293266296,
+        "source": "YouTube"
+      },
+      {
+        "id": "calc_000420",
+        "topic": "limits",
+        "subtopic": "L\u2019H\u00f4pital\u2019s Rule",
+        "content": "L\u2019H\u00f4pital\u2019s Rule resolves specific indeterminate limits.",
+        "content_type": "summary",
+        "score": 0.5700695514678955,
+        "source": "OpenStax"
+      },
+      {
+        "id": "calc_000130",
+        "topic": "limits",
+        "subtopic": "The Limit Laws",
+        "content": "Limit laws simplify limit calculations using algebraic structure.",
+        "content_type": "summary",
+        "score": 0.5678445100784302,
+        "source": "OpenStax"
+      },
+      {
+        "id": "calc_000417",
+        "topic": "limits",
+        "subtopic": "L\u2019H\u00f4pital\u2019s Rule",
+        "content": "The limit of (sin x)/x as x approaches 0 can be evaluated using L\u2019H\u00f4pital\u2019s Rule by differentiating numerator and denominator.",
+        "content_type": "example",
+        "score": 0.5601402521133423,
+        "source": "OpenStax"
+      },
+      {
+        "id": "calc_000127",
+        "topic": "limits",
+        "subtopic": "The Limit Laws",
+        "content": "If lim x\u2192a f(x) = 2 and lim x\u2192a g(x) = 3, then lim x\u2192a [f(x) + g(x)] = 5.",
+        "content_type": "example",
+        "score": 0.5360366702079773,
+        "source": "OpenStax"
+      },
+      {
+        "id": "calc_000101",
+        "topic": "limits",
+        "subtopic": "The Limit of a Function",
+        "content": "The limit of a function describes what value the function outputs get close to as the input gets close to a specific number. The input does not need to actually reach that number. Instead, we focus on the behavior of the function near that point. Limits are the foundation of calculus because they allow us to study change and behavior even when a function is not defined at a point. :contentReference[oaicite:0]{index=0}",
+        "content_type": "explanation",
+        "score": 0.5347548127174377,
+        "source": "OpenStax"
+      },
+      {
+        "id": "calc_000488",
+        "topic": "integration",
+        "subtopic": "Fundamental Theorem of Calculus Part 1",
+        "content": "Focus on how accumulation changes as the upper limit moves.",
+        "content_type": "hint",
+        "score": 0.5324473977088928,
+        "source": "OpenStax"
+      }
+    ]
+  }
+}

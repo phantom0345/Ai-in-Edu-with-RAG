@@ -353,7 +353,29 @@ async def generate_learning_chapter(req: ChapterRequest):
 
 @app.post("/generate_quiz")
 async def generate_quiz(req: QuizRequest):
+    """
+    Generate or retrieve a cached quiz for the given topic/subtopic.
+    Checks cache first for instant loading, falls back to generation if not found.
+    """
     try:
+        # Check cache first
+        cache_key = f"{req.topic}|{req.subtopic}|{req.difficulty}"
+        cache_file = os.path.join(os.path.dirname(__file__), "quiz_cache.json")
+        
+        if os.path.exists(cache_file):
+            try:
+                with open(cache_file, 'r') as f:
+                    cache = json.load(f)
+                
+                if cache_key in cache:
+                    logger.info(f"✅ Serving cached quiz for {req.topic} - {req.subtopic}")
+                    return cache[cache_key]
+            except Exception as e:
+                logger.warning(f"Cache read error: {e}, falling back to generation")
+        
+        # Cache miss - generate on demand
+        logger.info(f"⏳ Cache miss, generating quiz for {req.topic} - {req.subtopic}")
+        
         # 1. RAG Search
         search_query = f"{req.topic} {req.subtopic} practice problems quiz"
         search_res = search(SearchRequest(query=search_query, limit=10))
@@ -396,13 +418,31 @@ async def generate_quiz(req: QuizRequest):
             'source': d.get('source', 'Unknown')
         } for i, d in enumerate(context_docs[:10])]
         
-        return {
+        quiz_data = {
             "quiz": json.loads(response_text),
             "rag_sources": rag_sources
         }
+        
+        # Save to cache for future use
+        try:
+            cache = {}
+            if os.path.exists(cache_file):
+                with open(cache_file, 'r') as f:
+                    cache = json.load(f)
+            
+            cache[cache_key] = quiz_data
+            
+            with open(cache_file, 'w') as f:
+                json.dump(cache, f, indent=2)
+            
+            logger.info(f"💾 Cached quiz for future use: {cache_key}")
+        except Exception as e:
+            logger.warning(f"Failed to save to cache: {e}")
+        
+        return quiz_data
+        
     except json.JSONDecodeError:
         logger.error("Failed to parse quiz JSON from LLM")
-        # Fallback to simple error or retry (omitted for brevity)
         raise HTTPException(status_code=500, detail="Failed to generate valid quiz format")
     except Exception as e:
         logger.error(f"Quiz generation error: {e}")

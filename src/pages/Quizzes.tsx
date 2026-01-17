@@ -65,32 +65,39 @@ const Quizzes: React.FC<QuizzesProps> = ({ userProfile, updateUserProfile }) => 
 
         try {
             const data = await generateQuiz(selectedChapter, selectedSubtopic, 5, difficulty);
-            if (data.quiz && data.quiz.length > 0) {
-                setQuizQuestions(data.quiz);
 
-                // Initialize tracking for each question
-                const now = Date.now();
-                const startTimes: { [key: number]: number } = {};
-                const attempts: { [key: number]: number } = {};
-                const hintCts: { [key: number]: number } = {};
-
-                data.quiz.forEach((_: any, i: number) => {
-                    startTimes[i] = now;
-                    attempts[i] = 0;
-                    hintCts[i] = 0;
-                });
-
-                setQuestionStartTimes(startTimes);
-                setAttemptCounts(attempts);
-                setHintCounts(hintCts);
-
-                // Set RAG sources from quiz generation
-                if (data.rag_sources) {
-                    setRagSources(data.rag_sources);
-                }
+            if (!data || !data.quiz || data.quiz.length === 0) {
+                throw new Error('Quiz generation returned empty results. Please try again.');
             }
-        } catch (e) {
+
+            setQuizQuestions(data.quiz);
+
+            // Initialize tracking for each question
+            const now = Date.now();
+            const startTimes: { [key: number]: number } = {};
+            const attempts: { [key: number]: number } = {};
+            const hintCts: { [key: number]: number } = {};
+
+            data.quiz.forEach((_: any, i: number) => {
+                startTimes[i] = now;
+                attempts[i] = 0;
+                hintCts[i] = 0;
+            });
+
+            setQuestionStartTimes(startTimes);
+            setAttemptCounts(attempts);
+            setHintCounts(hintCts);
+
+            // Set RAG sources from quiz generation
+            if (data.rag_sources) {
+                setRagSources(data.rag_sources);
+            }
+        } catch (e: any) {
             console.error("Quiz generation failed", e);
+
+            // Show user-friendly error message
+            const errorMessage = e.message || 'Failed to generate quiz. This may be due to a slow connection or server timeout. Please try again.';
+            alert(`❌ Quiz Generation Error\n\n${errorMessage}\n\nTip: Quiz generation can take 30-60 seconds with local models. Please be patient!`);
         } finally {
             setIsLoading(false);
         }

@@ -25,17 +25,29 @@ const GuidedStudy: React.FC<GuidedStudyProps> = ({ userProfile, updateUserProfil
     const [difficultyData, setDifficultyData] = useState<any[]>([]);
     const [ragSources, setRagSources] = useState<RagSource[]>([]);
 
+    // Helper function to extract the base topic name (removes "Chapter X: " prefix)
+    const getBaseTopicName = (chapterName: string): string => {
+        // Match patterns like "Chapter 2: Limits" or "Chapter 10: Integration"
+        const match = chapterName.match(/^Chapter \d+:\s*(.+)$/);
+        return match ? match[1] : chapterName;
+    };
+
     // Get weak topics (mastery < 70) - ONLY for topics that have been tested
     const getWeakTopics = () => {
         const weakTopics: Record<string, string[]> = {};
 
         Object.keys(CALCULUS_TOPICS).forEach(chapter => {
+            const baseChapterName = getBaseTopicName(chapter);
+
             const weakSubtopics = CALCULUS_TOPICS[chapter].filter(subtopic => {
-                const mastery = userProfile.topicMastery[subtopic] || userProfile.topicMastery[chapter];
+                // Try to find mastery using different key variations
+                const mastery = userProfile.topicMastery[subtopic] ||
+                    userProfile.topicMastery[baseChapterName] ||
+                    userProfile.topicMastery[chapter];
 
                 // Only include if:
                 // 1. Topic has been tested (mastery exists and is not undefined)
-                // 2. AND score is below 70%
+                // 2. AND score is below 70
                 return mastery !== undefined && mastery < 70;
             });
 
